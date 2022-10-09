@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://omogenis.github.io/omogenis.github.io/blog</id>
+    <id>https://omogenis.ru/omogenis.github.io/blog</id>
     <title>ομογενής Blog</title>
     <updated>2022-10-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://omogenis.github.io/omogenis.github.io/blog"/>
+    <link rel="alternate" href="https://omogenis.ru/omogenis.github.io/blog"/>
     <subtitle>ομογενής Blog</subtitle>
-    <icon>https://omogenis.github.io/omogenis.github.io/img/favicon.ico</icon>
+    <icon>https://omogenis.ru/omogenis.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Петиция к правительству Греции]]></title>
         <id>petition</id>
-        <link href="https://omogenis.github.io/omogenis.github.io/blog/petition"/>
+        <link href="https://omogenis.ru/omogenis.github.io/blog/petition"/>
         <updated>2022-10-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Петеция]]></summary>
         <content type="html"><![CDATA[<p>Петеция</p>]]></content>
