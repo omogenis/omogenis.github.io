@@ -9,7 +9,7 @@ const config = {
   title: 'ομογενής',
   tagline: 'Греческие соотечественники в странах бывшего Советсткого союза',
   url: 'https://omogenis.github.io',
-  baseUrl: '/omogenis.github.io',
+  baseUrl: '/omogenis.github.io/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
