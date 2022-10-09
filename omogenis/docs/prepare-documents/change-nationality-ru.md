@@ -37,11 +37,11 @@ sidebar_position: 1
 гос.пошлину).
 
 Для примера:
-![image](../../static/prepare-documents/fig_application.png)
+![image](@site/static/prepare-documents/fig_application.png)
 
 После чего Вы получаете извещение об отказе:
 
-![image](../../static/prepare-documents/decline-desigion.jpeg)
+![image](@site/static/prepare-documents/decline-desigion.jpeg)
 
 Данное извещение -- Ваше основание для обращения в суд.
 
@@ -51,7 +51,7 @@ sidebar_position: 1
 заявление об изменении записи акта гражданского состояния. В таком
 случае гос.пошлину платить не нужно.
 
-<iframe width="100%" height="800" src="../../static/prepare-documents/application-to-ZAGS.pdf"></iframe>
+<iframe width="100%" height="800" src="@site/static/prepare-documents/application-to-ZAGS.pdf"></iframe>
 
 В ответ получаете письмо на официальном бланке. Это и будет Ваше
 основание для обращения в суд.
@@ -65,9 +65,9 @@ sidebar_position: 1
 и указанию своей национальной принадлежности».
 
 Примерный текст искового заявления:
-<iframe width="100%" height="800" src="../../static/prepare-documents/Court-application.pdf"></iframe>
+<iframe width="100%" height="800" src="@site/static/prepare-documents/Court-application.pdf"></iframe>
 
-[Скачать в формате Word](../../static/prepare-documents/Court-application.docx)
+[Скачать в формате Word](@site/static/prepare-documents/Court-application.docx)
 
 Оплатите гос.пошлину в размере 300 рублей и приложите квитанцию к
 комплекту документов. Распечатываете исковое заявление в двух (при

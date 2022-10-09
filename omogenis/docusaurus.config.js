@@ -82,40 +82,31 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Подробнее',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Получение гражданства',
                 to: '/docs/intro',
               },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
+                label: 'Новости',
                 to: '/blog',
               },
+            ],
+          },
+          {
+            title: 'Сообщество',
+            items: [
               {
-                label: 'Telegram',
+                label: 'Греческие общества',
+                href: 'https://rusgreek.ru/regions',
+              },
+              {
+                label: 'Адвокаты и переводчики',
+                href: '/docs/more-info/lawyers',
+              },
+              {
+                label: 'Telegram чат',
                 href: 'https://t.me/+GiOOaM4Qsk04Y2Ji',
               },
             ],
