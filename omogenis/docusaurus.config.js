@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'ομογενής',
+  tagline: 'Греческие соотечественники в странах бывшего Советсткого союза',
   url: 'https://github.com',
   baseUrl: '/omogenis.github.io/',
   onBrokenLinks: 'throw',
@@ -58,9 +58,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'ομογενής',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Греческие соотечественники в странах бывшего Советсткого союза',
           src: 'img/logo.svg',
         },
         items: [
@@ -115,13 +115,13 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Telegram',
+                href: 'https://t.me/+GiOOaM4Qsk04Y2Ji',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ομογενής. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
