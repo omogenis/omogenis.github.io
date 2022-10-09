@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>ομογενής Blog</title>
-        <link>https://omogenis.github.io/blog</link>
+        <link>https://omogenis.github.io/omogenis.github.io/blog</link>
         <description>ομογενής Blog</description>
         <lastBuildDate>Mon, 10 Oct 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>ru</language>
         <item>
             <title><![CDATA[Петиция к правительству Греции]]></title>
-            <link>https://omogenis.github.io/blog/petition</link>
+            <link>https://omogenis.github.io/omogenis.github.io/blog/petition</link>
             <guid>petition</guid>
             <pubDate>Mon, 10 Oct 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Петеция]]></description>
