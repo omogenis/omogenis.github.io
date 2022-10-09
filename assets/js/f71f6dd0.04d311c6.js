@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkomogenis=self.webpackChunkomogenis||[]).push([[233],{5467:o=>{o.exports=JSON.parse('{"label":"\u043f\u0435\u0442\u0435\u0446\u0438\u044f","permalink":"/omogenis.github.io/blog/tags/\u043f\u0435\u0442\u0435\u0446\u0438\u044f","allTagsPath":"/omogenis.github.io/blog/tags","count":1}')}}]);
