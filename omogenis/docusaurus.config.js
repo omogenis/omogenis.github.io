@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'ομογενής',
   tagline: 'Греческие соотечественники в странах бывшего Советсткого союза',
-  url: 'https://omogenis.ru',
+  url: 'https://omogenis.github.io',
   baseUrl: '/omogenis.github.io/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
