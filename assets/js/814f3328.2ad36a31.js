@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkomogenis=self.webpackChunkomogenis||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u041f\u0435\u0442\u0438\u0446\u0438\u044f \u043a \u043f\u0440\u0430\u0432\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0443 \u0413\u0440\u0435\u0446\u0438\u0438","permalink":"/omogenis.github.io/blog/petition"}]}')}}]);
