@@ -51,7 +51,7 @@ sidebar_position: 1
 заявление об изменении записи акта гражданского состояния. В таком
 случае гос.пошлину платить не нужно.
 
-<iframe width="100%" height="800" src="@site/static/prepare-documents/application-to-ZAGS.pdf"></iframe>
+![image](@site/static/prepare-documents/application-to-ZAGS.png)
 
 В ответ получаете письмо на официальном бланке. Это и будет Ваше
 основание для обращения в суд.
@@ -65,7 +65,7 @@ sidebar_position: 1
 и указанию своей национальной принадлежности».
 
 Примерный текст искового заявления:
-<iframe width="100%" height="800" src="@site/static/prepare-documents/Court-application.pdf"></iframe>
+![image](@site/static/prepare-documents/Court-application.png)
 
 [Скачать в формате Word](@site/static/prepare-documents/Court-application.docx)
 

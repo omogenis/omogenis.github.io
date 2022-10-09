@@ -38,14 +38,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/omogenis/omogenis.github.io/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/omogenis/omogenis.github.io/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -72,7 +72,7 @@ const config = {
           },
           {to: '/blog', label: 'Новости', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://t.me/+GiOOaM4Qsk04Y2Ji',
             label: 'Telegram чат',
             position: 'right',
           },
