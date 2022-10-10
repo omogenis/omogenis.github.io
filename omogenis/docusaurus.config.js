@@ -9,7 +9,7 @@ const config = {
   title: 'ομογενής',
   tagline: 'Греческие соотечественники в странах бывшего Советсткого союза',
   url: 'https://omogenis.github.io',
-  baseUrl: '/omogenis.github.io/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -64,6 +64,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          {to: '/petition', label: 'Αναφορά | Петиция', position: 'left'},
           {
             type: 'doc',
             docId: 'intro',

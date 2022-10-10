@@ -17,8 +17,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/blog/petition">
-            Петиция к Правительству Греции ⏱️
+            to="/petition">
+            Αναφορά προς την Ελληνική Κυβέρνηση | Петиция к Правительству Греции 
           </Link>
         </div>
       </div>
