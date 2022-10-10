@@ -13,12 +13,20 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">Έλληνες ομογενείς στην πρώην Σοβιετική Ένωση</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/petition">
-            Αναφορά προς την Ελληνική Κυβέρνηση | Петиция к Правительству Греции 
+            Αναφορά προς την Ελληνική Κυβέρνηση
+          </Link>
+          </div>
+        <p className="hero__subtitle">Греческие соотечественники в странах бывшего Советсткого союза</p>
+          <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/petition">
+            Петиция к Правительству Греции 
           </Link>
         </div>
       </div>
