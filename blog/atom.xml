@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://omogenis.github.io/omogenis.github.io/blog</id>
+    <id>https://omogenis.ru/blog</id>
     <title>ομογενής Blog</title>
     <updated>2022-10-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://omogenis.github.io/omogenis.github.io/blog"/>
+    <link rel="alternate" href="https://omogenis.ru/blog"/>
     <subtitle>ομογενής Blog</subtitle>
-    <icon>https://omogenis.github.io/omogenis.github.io/img/favicon.ico</icon>
+    <icon>https://omogenis.ru/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Петиция к правительству Греции]]></title>
+        <title type="html"><![CDATA[Подготовка петиции]]></title>
         <id>petition</id>
-        <link href="https://omogenis.github.io/omogenis.github.io/blog/petition"/>
+        <link href="https://omogenis.ru/blog/petition"/>
         <updated>2022-10-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Петеция]]></summary>
-        <content type="html"><![CDATA[<p>Петеция</p>]]></content>
+        <summary type="html"><![CDATA[Идет подготовка петиции к Правительству Греции. Подробнее в Telegram-чате.]]></summary>
+        <content type="html"><![CDATA[<p>Идет подготовка петиции к Правительству Греции. Подробнее в Telegram-чате.</p>]]></content>
         <author>
             <name>Maria</name>
         </author>
-        <category label="петеция" term="петеция"/>
+        <category label="петиция" term="петиция"/>
     </entry>
 </feed>
