@@ -1,9 +1,5 @@
 name: Deploy to GitHub Pages
 
-defaults:
-  run:
-    working-directory: omogenis
-
 on:
   push:
     branches:

@@ -1,9 +1,5 @@
 name: Test deployment
 
-defaults:
-  run:
-    working-directory: omogenis
-
 on:
   pull_request:
     branches:
