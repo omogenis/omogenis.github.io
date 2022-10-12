@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ομογενής',
-  tagline: 'Греческие соотечественники в странах бывшего Советсткого союза',
+  tagline: 'Греки стран бывшего Советского союза',
   url: 'https://omogenis.ru',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -60,7 +60,7 @@ const config = {
       navbar: {
         title: 'ομογενής',
         logo: {
-          alt: 'Греческие соотечественники в странах бывшего Советсткого союза',
+          alt: 'Греки стран бывшего Советского союза',
           src: 'img/logo.svg',
         },
         items: [
@@ -69,7 +69,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Получение гражданства',
+            label: 'Процедура натурализации',
           },
           {to: '/blog', label: 'Новости', position: 'left'},
           {

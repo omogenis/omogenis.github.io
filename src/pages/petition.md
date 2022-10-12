@@ -18,8 +18,18 @@ title: Αναφορά
 
 ### Υπογράφοντες
 
+<a
+className="button button--primary button--lg" href="https://www.google.com/">
+Υπογράψτε την Αναφορά
+</a>
+
 ![image](../../static/img/patterns/1.svg) 
 
 ## In English
 
 ### Signatories
+
+<a
+className="button button--primary button--lg" href="https://www.google.com/">
+Sign the Petition
+</a>
