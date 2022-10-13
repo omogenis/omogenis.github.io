@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ομογενής',
-  tagline: 'Греки стран бывшего Советского союза',
+  tagline: 'Этнические греки из стран бывшего СССР',
   url: 'https://omogenis.ru',
   baseUrl: '/',
   onBrokenLinks: 'throw',

@@ -21,7 +21,7 @@ function HomepageHeader() {
             Αναφορά προς την Ελληνική Κυβέρνηση
           </Link>
           </div>
-        <p className="hero__subtitle">Греки стран бывшего Советского союза</p>
+        <p className="hero__subtitle">Этнические греки из стран бывшего СССР</p>
           <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -39,7 +39,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Греки стран бывшего Советского союза">
+      description="Этнические греки из стран бывшего СССР">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
