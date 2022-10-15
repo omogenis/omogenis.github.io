@@ -38,4 +38,12 @@ Not using SSH:
 $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
-We are using GitHub pages for hosting with automatic GitHub Action for deployement.
+We are using GitHub pages for hosting with automatic GitHub Action for deployment.
+
+### Search index
+
+To index site contents use following command:
+
+```bash
+docker run -it --env-file=.env -e "CONFIG=$(cat ./config.json | jq -r tostring)" algolia/docsearch-scraper 
+```
