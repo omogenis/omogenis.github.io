@@ -38,8 +38,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description="Этнические греки из стран бывшего СССР">
+      title="Этнические греки из стран бывшего СССР"
+      description="Изучение греческого языка, получение гражданства и полезные советы">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
