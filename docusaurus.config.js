@@ -73,7 +73,7 @@ const config = {
           },
           {to: '/blog', label: 'Новости', position: 'left'},
           {
-            href: 'https://t.me/+GiOOaM4Qsk04Y2Ji',
+            href: '/telegram',
             label: 'Telegram чат',
             position: 'right',
           },
