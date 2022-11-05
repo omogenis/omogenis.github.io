@@ -70,7 +70,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Процедура натурализации',
+            label: 'Материалы и инструкции',
           },
           {to: '/blog', label: 'Новости', position: 'left'},
           {
