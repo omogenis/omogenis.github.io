@@ -65,6 +65,7 @@ const config = {
         },
         items: [
           {to: '/petition', label: 'Αναφορά | Петиция', position: 'left'},
+          {to: '/statistics-gr', label: 'Στατιστικά', position: 'left'},
           {to: '/statistics', label: 'Статистика', position: 'left'},
           {
             type: 'doc',
