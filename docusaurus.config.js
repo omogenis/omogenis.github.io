@@ -64,8 +64,9 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {to: '/petition', label: 'Αναφορά | Петиция', position: 'left'},
+          {to: '/petition-gr', label: 'Αναφορά', position: 'left'},
           {to: '/statistics-gr', label: 'Στατιστικά', position: 'left'},
+          {to: '/petition', label: 'Петиция', position: 'left'},
           {to: '/statistics', label: 'Статистика', position: 'left'},
           {
             type: 'doc',
