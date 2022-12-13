@@ -1,8 +1,11 @@
 iliamiltykh:
-  name: Ilia Miltykh
+  name: Ηλίας
   url: https://miltykh.com
-  image_url: https://github.com/iliamiltykh/cv/raw/main/data/profile.jpg
+  image_url: 'https://miltykh.com/assets/ideal-img/avatar.329e268.1000.jpg'
 
 maria:
-  name: Maria
+  name: Μαρία
+  image_url: '/img/authors/Maria.jpg'
+
+
 
