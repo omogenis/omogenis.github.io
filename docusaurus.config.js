@@ -28,6 +28,20 @@ const config = {
     locales: ['ru'],
   },
 
+  plugins: [
+    async function myPlugin(context, options) {
+      return {
+        name: "docusaurus-tailwindcss",
+        configurePostCss(postcssOptions) {
+          // Appends TailwindCSS and AutoPrefixer.
+          postcssOptions.plugins.push(require("tailwindcss"));
+          postcssOptions.plugins.push(require("autoprefixer"));
+          return postcssOptions;
+        },
+      };
+    },
+  ],
+
   presets: [
     [
       'classic',
@@ -116,7 +130,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ομογενής. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ομογενής.`,
       },
       prism: {
         theme: lightCodeTheme,
