@@ -32,7 +32,7 @@ function Header() {
                     href="/petition-gr"
                     className="inline-block rounded-lg bg-blue-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-blue-600 hover:bg-blue-700 hover:ring-blue-700 hover:text-white focus:text-white"
                   >
-                    Αναφορά προς την Ελληνική Κυβέρνηση 
+                    Ανοιχτή Επιστολή 
                     <span className="text-blue-200 " aria-hidden="true">
                       &rarr;
                     </span>

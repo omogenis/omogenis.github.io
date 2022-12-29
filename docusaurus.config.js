@@ -78,7 +78,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {to: '/petition-gr', label: 'Αναφορά', position: 'left'},
+          {to: '/petition-gr', label: 'Ανοιχτή Επιστολή', position: 'left'},
           {to: '/statistics-gr', label: 'Στατιστικά', position: 'left'},
           {to: '/petition', label: 'Петиция', position: 'left'},
           {to: '/statistics', label: 'Статистика', position: 'left'},
