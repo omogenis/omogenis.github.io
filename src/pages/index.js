@@ -35,7 +35,7 @@ function Header() {
                 <div className="mt-8 flex gap-x-4 sm:justify-center">
                   <a
                     href="/petition-gr"
-                    className="inline-block rounded-lg px-4 py-1.5 text-base ring-white hover:ring-white font-semibold leading-7 text-gray-100 ring-1 ring-gray-900/10 hover:ring-gray-100/20 hover:text-white"
+                    className="inline-block rounded-lg px-4 py-1.5 text-base ring-white hover:ring-white font-semibold leading-7 text-gray-100 ring-1 ring-white hover:ring-white hover:text-white"
                   >
                     Ανοιχτή Επιστολή
                     <span className="text-blue-200 " aria-hidden="true">
@@ -44,7 +44,7 @@ function Header() {
                   </a>
                   <a
                     href="/statistics-gr"
-                    className="inline-block rounded-lg px-4 py-1.5 text-base ring-white hover:ring-white font-semibold leading-7 text-gray-100 ring-1 ring-gray-900/10 hover:ring-gray-100/20 hover:text-white"
+                    className="inline-block rounded-lg px-4 py-1.5 text-base ring-white hover:ring-white font-semibold leading-7 text-gray-100 ring-1 ring-white hover:ring-white hover:text-white"
                   >
                     Στατιστικά
                     <span className="text-gray-100" aria-hidden="true">
