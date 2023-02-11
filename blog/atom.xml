@@ -8,23 +8,6 @@
     <subtitle>ομογενής Blog</subtitle>
     <icon>https://omogenis.ru/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Съезд Репатриантов ПОСЕП]]></title>
-        <id>meeting</id>
-        <link href="https://omogenis.ru/blog/meeting"/>
-        <updated>2023-02-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Афина]]></summary>
-        <content type="html"><![CDATA[<p><img loading="lazy" alt="Афина" src="/assets/images/poster-771b45631af287b3370fa0898ff8ccbe.jpeg" width="760" height="1104" class="img_ev3q"></p><p>Исторический Съезд Репатриантов ПОСЕП в Александруполи 12-02-2023 в воскресенье в 11 утра в Театре Мэрии. </p><p>Телефон:
-6945445462
-Елена Татевосян,
-Председатель общественной организации АРГО репатриантов, член Федерации ПОСЕП"</p>]]></content>
-        <author>
-            <name>Μαρία</name>
-        </author>
-        <category label="Ανοιχτή Επιστολή" term="Ανοιχτή Επιστολή"/>
-        <category label="Petition" term="Petition"/>
-        <category label="петиция" term="петиция"/>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Το αίτημα εστάλη! | Petition is sent!]]></title>
         <id>petition</id>
         <link href="https://omogenis.ru/blog/petition"/>
@@ -43,6 +26,23 @@ We have launched our petition addressed to the government of Greece - we call fo
         <category label="Ανοιχτή Επιστολή" term="Ανοιχτή Επιστολή"/>
         <category label="Petition" term="Petition"/>
         <category label="петиция" term="петиция"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Съезд Репатриантов ПОСЕП]]></title>
+        <id>meeting</id>
+        <link href="https://omogenis.ru/blog/meeting"/>
+        <updated>2023-02-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Афина]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" alt="Афина" src="/assets/images/poster-771b45631af287b3370fa0898ff8ccbe.jpeg" width="760" height="1104" class="img_ev3q"></p><p>Исторический Съезд Репатриантов ПОСЕП в Александруполи 12-02-2023 в воскресенье в 11 утра в Театре Мэрии. </p><p>Телефон:
+6945445462
+Елена Татевосян,
+Председатель общественной организации АРГО репатриантов, член Федерации ПОСЕП"</p>]]></content>
+        <author>
+            <name>Μαρία</name>
+        </author>
+        <category label="Петиция" term="Петиция"/>
+        <category label="ПОСЕП" term="ПОСЕП"/>
+        <category label="Съезд" term="Съезд"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Сбор контактов адресатов для петиции]]></title>

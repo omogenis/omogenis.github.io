@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkomogenis=self.webpackChunkomogenis||[]).push([[5388],{8188:s=>{s.exports=JSON.parse('{"label":"\u0391\u03bd\u03bf\u03b9\u03c7\u03c4\u03ae \u0395\u03c0\u03b9\u03c3\u03c4\u03bf\u03bb\u03ae","permalink":"/blog/tags/\u03b1\u03bd\u03bf\u03b9\u03c7\u03c4\u03ae-\u03b5\u03c0\u03b9\u03c3\u03c4\u03bf\u03bb\u03ae","allTagsPath":"/blog/tags","count":2}')}}]);

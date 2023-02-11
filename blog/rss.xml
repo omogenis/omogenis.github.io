@@ -9,20 +9,6 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
         <item>
-            <title><![CDATA[Съезд Репатриантов ПОСЕП]]></title>
-            <link>https://omogenis.ru/blog/meeting</link>
-            <guid>meeting</guid>
-            <pubDate>Fri, 10 Feb 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Афина]]></description>
-            <content:encoded><![CDATA[<p><img loading="lazy" alt="Афина" src="/assets/images/poster-771b45631af287b3370fa0898ff8ccbe.jpeg" width="760" height="1104" class="img_ev3q"></p><p>Исторический Съезд Репатриантов ПОСЕП в Александруполи 12-02-2023 в воскресенье в 11 утра в Театре Мэрии. </p><p>Телефон:
-6945445462
-Елена Татевосян,
-Председатель общественной организации АРГО репатриантов, член Федерации ПОСЕП"</p>]]></content:encoded>
-            <category>Ανοιχτή Επιστολή</category>
-            <category>Petition</category>
-            <category>петиция</category>
-        </item>
-        <item>
             <title><![CDATA[Το αίτημα εστάλη! | Petition is sent!]]></title>
             <link>https://omogenis.ru/blog/petition</link>
             <guid>petition</guid>
@@ -38,6 +24,20 @@ We have launched our petition addressed to the government of Greece - we call fo
             <category>Ανοιχτή Επιστολή</category>
             <category>Petition</category>
             <category>петиция</category>
+        </item>
+        <item>
+            <title><![CDATA[Съезд Репатриантов ПОСЕП]]></title>
+            <link>https://omogenis.ru/blog/meeting</link>
+            <guid>meeting</guid>
+            <pubDate>Fri, 03 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Афина]]></description>
+            <content:encoded><![CDATA[<p><img loading="lazy" alt="Афина" src="/assets/images/poster-771b45631af287b3370fa0898ff8ccbe.jpeg" width="760" height="1104" class="img_ev3q"></p><p>Исторический Съезд Репатриантов ПОСЕП в Александруполи 12-02-2023 в воскресенье в 11 утра в Театре Мэрии. </p><p>Телефон:
+6945445462
+Елена Татевосян,
+Председатель общественной организации АРГО репатриантов, член Федерации ПОСЕП"</p>]]></content:encoded>
+            <category>Петиция</category>
+            <category>ПОСЕП</category>
+            <category>Съезд</category>
         </item>
         <item>
             <title><![CDATA[Сбор контактов адресатов для петиции]]></title>
