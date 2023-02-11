@@ -93,8 +93,8 @@ const config = {
           },
           { to: "/blog", label: "Новости", position: "left" },
           {
-            href: "/telegram",
-            label: "Telegram чат",
+            href: "/contacts",
+            label: "Contacts",
             position: "right",
           },
         ],

@@ -27,10 +27,10 @@ function Header() {
               </div>
               <div>
                 <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl text-white">
-                  ΟΜΟΓΕΝΉΣ
-                </h1>
-                <p className="mt-6 text-lg leading-8 text-gray-200 sm:text-center">
                   Ομογενείς στην πρώην Σοβιετική Ένωση
+                </h1>
+                <p className="mt-6 text-2xl leading-8 text-gray-200 sm:text-center">
+                  Greek expatriates from former USSR
                 </p>
                 <div className="mt-8 flex gap-x-4 sm:justify-center">
                   <a
