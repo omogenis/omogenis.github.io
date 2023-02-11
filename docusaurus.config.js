@@ -83,8 +83,9 @@ const config = {
         items: [
           { to: "/petition-gr", label: "Ανοιχτή Επιστολή", position: "left" },
           { to: "/statistics-gr", label: "Στατιστικά", position: "left" },
+          { to: "/petition-en", label: "Petition", position: "left" },
           { to: "/petition", label: "Петиция", position: "left" },
-          { to: "/statistics", label: "Статистика", position: "left" },
+          
           {
             type: "doc",
             docId: "intro",

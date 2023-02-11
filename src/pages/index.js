@@ -13,14 +13,13 @@ function Header() {
               <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                 <div className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-white">
                   <span className="text-white">
-                    Материалы и инструкции по натурализации и изучению языка и
-                    истории{" "}
+                  Help stop discrimination of Greek expatriates from former USSR {" "}
                     <a
-                      href="/docs/intro"
+                      href="/petition-en"
                       className="font-semibold text-white hover:text-white"
                     >
                       <span className="absolute inset-0" aria-hidden="true" />
-                      Подробнее <span aria-hidden="true">&rarr;</span>
+                      Learn More <span aria-hidden="true">&rarr;</span>
                     </a>
                   </span>
                 </div>
