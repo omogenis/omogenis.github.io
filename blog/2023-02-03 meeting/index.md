@@ -2,7 +2,7 @@
 slug: meeting
 title: Съезд Репатриантов ПОСЕП
 authors: [maria]
-tags: [Ανοιχτή Επιστολή, Petition, петиция]
+tags: [Петиция, ПОСЕП, Съезд]
 ---
 
 ![Афина](/img/poster.jpeg)
