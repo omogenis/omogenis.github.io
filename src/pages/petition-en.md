@@ -70,6 +70,12 @@ Mob.: +30 69 3655 5548
 Email: greek_regina@yahoo.gr<br />
 Mobile:. +30 69 5151 4312<br />
 
+:::tip Το ξέρατε;
+
+Έχουμε αυτή τη σελίδα και στα ελληνικά! <a className="button button--primary button--lg" href="/petition-gr"> Αποτελέσματα στα Ελληνικά </a>
+
+:::
+
 :::tip Версия на русском
 
 Данная страница доступна на русском языке! <a className="button button--primary button--lg" href="/petition"> Открыть! </a>
