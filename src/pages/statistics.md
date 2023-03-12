@@ -12,6 +12,7 @@ hide_table_of_contents: true
 
 :::
 
+<iframe title="Официальная статистика по натурализации экспатриантов из стран бывшего СССР" aria-label="Stacked Column Chart" id="datawrapper-chart-Sevgr" src="https://datawrapper.dwcdn.net/Sevgr/2/" scrolling="no" frameborder="0" class="datawrapper" data-external="1"></iframe>
 
 :::info Анонимность
 
