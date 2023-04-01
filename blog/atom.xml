@@ -9,7 +9,7 @@
     <icon>https://omogenis.ru/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Το αίτημα εστάλη! | Petition is sent!]]></title>
-        <id>petition</id>
+        <id>https://omogenis.ru/blog/petition</id>
         <link href="https://omogenis.ru/blog/petition"/>
         <updated>2023-02-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Αγαπητοί φίλοι!]]></summary>
@@ -29,7 +29,7 @@ We have launched our petition addressed to the government of Greece - we call fo
     </entry>
     <entry>
         <title type="html"><![CDATA[Съезд Репатриантов ПОСЕП]]></title>
-        <id>meeting</id>
+        <id>https://omogenis.ru/blog/meeting</id>
         <link href="https://omogenis.ru/blog/meeting"/>
         <updated>2023-02-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Афина]]></summary>
@@ -46,7 +46,7 @@ We have launched our petition addressed to the government of Greece - we call fo
     </entry>
     <entry>
         <title type="html"><![CDATA[Сбор контактов адресатов для петиции]]></title>
-        <id>contacts</id>
+        <id>https://omogenis.ru/blog/contacts</id>
         <link href="https://omogenis.ru/blog/contacts"/>
         <updated>2022-12-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Друзья, просим Вас сообщить контакты политических деятелей, журналистов и других лиц, которым, как Вы считаете, есть возможность и имеет смысл вручить петицию лично.]]></summary>
@@ -63,7 +63,7 @@ We have launched our petition addressed to the government of Greece - we call fo
     </entry>
     <entry>
         <title type="html"><![CDATA[Греки СССР — статистика по ходатайствам о гражданстве Греции]]></title>
-        <id>survey</id>
+        <id>https://omogenis.ru/blog/survey</id>
         <link href="https://omogenis.ru/blog/survey"/>
         <updated>2022-10-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Друзья, просим пройти анонимный опрос об опыте подачи ходатайства / или неподачи / отказа / успеха и так далее.]]></summary>

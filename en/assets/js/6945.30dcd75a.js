@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkomogenis=self.webpackChunkomogenis||[]).push([[6945],{6945:(e,s,k)=>{k.r(s)}}]);
