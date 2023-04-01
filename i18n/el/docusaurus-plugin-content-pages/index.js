@@ -15,7 +15,7 @@ function Header() {
                   <span className="text-white">
                   Βοηθήστε να σταματήσουν οι διακρίσεις των Ελλήνων ομογενών από την πρώην ΕΣΣΔ {" "}
                     <a
-                      href="/petition"
+                      href="/el/petition"
                       className="font-semibold text-white hover:text-white"
                     >
                       <span className="absolute inset-0" aria-hidden="true" />
@@ -42,7 +42,7 @@ function Header() {
                     </span>
                   </a>
                   <a
-                    href="/statistics"
+                    href="/el/statistics"
                     className="inline-block rounded-lg px-4 py-1.5 text-base ring-white hover:ring-white font-semibold leading-7 text-gray-100 ring-1 ring-white hover:ring-white hover:text-white"
                   >
                     Στατιστικά
@@ -101,7 +101,7 @@ function Materials() {
             </p>
 
             <a
-              href="/petition"
+              href="/el/petition"
               class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-300 transform bg-blue-100 rounded-full rtl:-scale-x-100 dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
             >
               <svg
@@ -146,7 +146,7 @@ function Materials() {
             </p>
 
             <a
-              href="/statistics"
+              href="/el/statistics"
               class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-300 transform bg-blue-100 rounded-full rtl:-scale-x-100 dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
             >
               <svg
