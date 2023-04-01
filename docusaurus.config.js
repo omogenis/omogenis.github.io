@@ -25,10 +25,26 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "ru",
-    locales: ["ru"],
+    locales: ["ru", "el", "en"],
   },
 
   plugins: [
+/*     [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          // /docs/oldDoc -> /docs/newDoc
+          {
+            to: '/el/petition',
+            from: '/petition-gr',
+          },
+          {
+            to: '/el/statistics',
+            from: '/statistics-gr',
+          },
+        ],
+      },
+    ], */
     async function myPlugin(context, options) {
       return {
         name: "docusaurus-tailwindcss",
@@ -97,6 +113,10 @@ const config = {
             href: "/contacts",
             label: "Contacts",
             position: "right",
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right'
           },
         ],
       },
