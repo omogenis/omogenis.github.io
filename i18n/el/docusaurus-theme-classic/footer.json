@@ -1,0 +1,23 @@
+{
+    "link.title.Подробнее": {
+        "message": "Περισσότερα"
+    },
+    "link.item.label.Получение гражданства": {
+        "message": "Απόκτηση ιθαγένειας"
+    },
+    "link.item.label.Новости": {
+        "message": "Ειδήσεις"
+    },
+    "link.title.Сообщество": {
+        "message": "Κοινότητα"
+    },
+    "link.item.label.Греческие общества": {
+        "message": "Ελληνικές κοινωνίες"
+    },
+    "link.item.label.Адвокаты и переводчики": {
+        "message": "Δικηγόροι και διερμηνείς"
+    },
+    "link.item.label.Telegram чат": {
+        "message": "Συνομιλία μέσω Telegram"
+    }
+}

@@ -33,7 +33,7 @@ function Header() {
                 </p>
                 <div className="mt-8 flex gap-x-4 sm:justify-center">
                   <a
-                    href="/petition"
+                    href="/el/petition"
                     className="inline-block rounded-lg px-4 py-1.5 text-base ring-white hover:ring-white font-semibold leading-7 text-gray-100 ring-1 ring-white hover:ring-white hover:text-white"
                   >
                     Ανοιχτή Επιστολή
@@ -193,7 +193,7 @@ function Materials() {
             </p>
 
             <a
-              href="/docs/intro"
+              href="/el/docs/intro"
               class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-300 transform bg-blue-100 rounded-full rtl:-scale-x-100 dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
             >
               <svg
