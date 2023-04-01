@@ -29,7 +29,7 @@ const config = {
   },
 
   plugins: [
-    [
+/*     [
       '@docusaurus/plugin-client-redirects',
       {
         redirects: [
@@ -44,7 +44,7 @@ const config = {
           },
         ],
       },
-    ],
+    ], */
     async function myPlugin(context, options) {
       return {
         name: "docusaurus-tailwindcss",
