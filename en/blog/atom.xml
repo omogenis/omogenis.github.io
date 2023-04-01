@@ -8,17 +8,12 @@
     <subtitle>ομογενής Blog</subtitle>
     <icon>https://omogenis.ru/en/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Το αίτημα εστάλη! | Petition is sent!]]></title>
+        <title type="html"><![CDATA[Petition is sent!]]></title>
         <id>https://omogenis.ru/en/blog/petition</id>
         <link href="https://omogenis.ru/en/blog/petition"/>
         <updated>2023-02-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Αγαπητοί φίλοι!]]></summary>
-        <content type="html"><![CDATA[<p><strong>Αγαπητοί φίλοι!</strong>
-Ξεκινήσαμε το αίτημά μας που απευθύνεται στην κυβέρνηση της Ελλάδας - ζητάμε την απλοποίηση της διαδικασίας πολιτογράφησης βοηθώντας τους σοβιετικούς Έλληνες να μεταναστεύσουν στην ιστορική τους πατρίδα! Σας παρακαλούμε να μας υποστηρίξετε υπογράφοντας, κοινοποιώντας την αίτηση αυτή στους φίλους και συγγενείς σας, προωθώντας την στο διαδίκτυο, εμπλέκοντας εκπροσώπους των Μ.Μ.Ε. αν έχετε τέτοια
-<a href="https://www.change.org/USSRGreeks" target="_blank" rel="noopener noreferrer">https://www.change.org/USSRGreeks</a></p><p><strong>Dear friends!</strong>
-We have launched our petition addressed to the government of Greece - we call for the simplification of the naturalisation procedure helping soviet Greeks immigrate to their historical Fatherland! Please support us by signing, sharing this petition with your friends and relatives, promoting it online, involving MEDIA representatives if you have such opportunity!
-<a href="https://www.change.org/USSRGreeks" target="_blank" rel="noopener noreferrer">https://www.change.org/USSRGreeks</a> </p><p><strong>Дороги друзья!</strong>
-Мы запустили петицию к правительству Греции на платформе Change.org. Просим вашей поддержки: подписывайте, делитесь в друзьями и родными, публикуйте в соц-сетях, рассказывайте представителям СМИ и всем, кто может помочь нам достичь нашей цели - упрощения натурализации греков бывшего СССР!
+        <summary type="html"><![CDATA[Dear friends!]]></summary>
+        <content type="html"><![CDATA[<p><strong>Dear friends!</strong></p><p>We have launched our petition addressed to the government of Greece - we call for the simplification of the naturalisation procedure helping soviet Greeks immigrate to their historical Fatherland! Please support us by signing, sharing this petition with your friends and relatives, promoting it online, involving MEDIA representatives if you have such opportunity!
 <a href="https://www.change.org/USSRGreeks" target="_blank" rel="noopener noreferrer">https://www.change.org/USSRGreeks</a></p>]]></content>
         <author>
             <name>Μαρία</name>
