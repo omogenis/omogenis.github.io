@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 <a className="button button--primary button--lg" href="https://chng.it/DLffSFZTGt"> Sign the Petition!</a>
 
-<a className="button button--secondary button--lg" href="/img/Open-Letter-Web.pdf"> Download the Open Letter</a>
+<a className="button button--secondary button--lg" href="/img/Open-Letter-Web.pdf" download target="_blank"> Download the Open Letter</a>
 
 :::
 

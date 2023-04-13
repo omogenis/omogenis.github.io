@@ -16,7 +16,7 @@ hide_table_of_contents: true
 
 <a className="button button--primary button--lg" href="https://chng.it/DLffSFZTGt"> Подписать петицию!</a>
 
-<a className="button button--secondary button--lg" href="/img/Open-Letter-Web.pdf"> Скачать петицию</a>
+<a className="button button--secondary button--lg" href="/img/Open-Letter-Web.pdf" download target="_blank"> Скачать петицию</a>
 
 :::
 

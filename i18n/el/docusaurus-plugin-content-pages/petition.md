@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 <a className="button button--primary button--lg" href="https://chng.it/DLffSFZTGt"> Υπογράψτε την επιστολή!</a>
 
-<a className="button button--secondary button--lg" href="/img/Open-Letter-Web.pdf"> Κατεβάστε την Ανοιχτή Επιστολή</a>
+<a className="button button--secondary button--lg" href="/img/Open-Letter-Web.pdf" download target="_blank"> Κατεβάστε την Ανοιχτή Επιστολή</a>
 
 :::
 ![Cover Image](/img/cover-gr.svg)
