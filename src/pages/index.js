@@ -13,39 +13,39 @@ function Header() {
               <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                 <div className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-white">
                   <span className="text-white">
-                  Help stop discrimination of Greek expatriates from former USSR {" "}
+                  Ανοίξτε την ιστοσελίδα στα ελληνικά {" "}
                     <a
-                      href="/petition-en"
+                      href="/el"
                       className="font-semibold text-white hover:text-white"
                     >
                       <span className="absolute inset-0" aria-hidden="true" />
-                      Learn More <span aria-hidden="true">&rarr;</span>
+                      Έλα! <span aria-hidden="true">&rarr;</span>
                     </a>
                   </span>
                 </div>
               </div>
               <div>
                 <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl text-white">
-                  Ομογενείς στην πρώην Σοβιετική Ένωση
+                  Греки-соотечественники в постсоветских странах
                 </h1>
                 <p className="mt-6 text-2xl leading-8 text-gray-200 sm:text-center">
-                  Greek expatriates from former USSR
+                  Ομογενείς στην πρώην Σοβιετική Ένωση
                 </p>
                 <div className="mt-8 flex gap-x-4 sm:justify-center">
                   <a
-                    href="/petition-gr"
+                    href="/petition"
                     className="inline-block rounded-lg px-4 py-1.5 text-base ring-white hover:ring-white font-semibold leading-7 text-gray-100 ring-1 ring-white hover:ring-white hover:text-white"
                   >
-                    Ανοιχτή Επιστολή
+                    Петиция
                     <span className="text-blue-200 " aria-hidden="true">
                       &rarr;
                     </span>
                   </a>
                   <a
-                    href="/statistics-gr"
+                    href="/statistics"
                     className="inline-block rounded-lg px-4 py-1.5 text-base ring-white hover:ring-white font-semibold leading-7 text-gray-100 ring-1 ring-white hover:ring-white hover:text-white"
                   >
-                    Στατιστικά
+                    Статистика
                     <span className="text-gray-100" aria-hidden="true">
                       &rarr;
                     </span>
