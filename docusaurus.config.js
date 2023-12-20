@@ -97,16 +97,15 @@ const config = {
           src: "img/logo.svg",
         },
         items: [
+          { to: "/blog", label: "Новости", position: "left" },
           { to: "/petition", label: "Петиция", position: "left" },
           { to: "/statistics", label: "Статистика", position: "left" },
-          
-          {
+                    {
             type: "doc",
             docId: "intro",
             position: "left",
             label: "Материалы и инструкции",
           },
-          { to: "/blog", label: "Новости", position: "left" },
           {
             href: "/contacts",
             label: "Контакты",
