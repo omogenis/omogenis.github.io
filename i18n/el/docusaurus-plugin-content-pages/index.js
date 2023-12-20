@@ -103,14 +103,14 @@ function Materials() {
               </svg>
             </span>
 
-            <h1 class="text-2xl font-semibold text-white">Ανοιχτή Επιστολή</h1>
+            <h1 class="text-2xl font-semibold text-white">Λέσχη ομιλίας</h1>
 
             <p class="text-gray-300">
-            Αίτημα ομογενών από χώρες της πρώην Σοβιετικής Ένωσης για απλούστευση των διαδικασιών πολιτογράφησης
+            Δωρεάν λέσχη ομιλίας όπου εξασκούμε την ελληνική γλώσσα
             </p>
 
             <a
-              href="/el/petition"
+              href="https://t.me/Greek_USSR/28751"
               class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-300 transform bg-blue-100 rounded-full rtl:-scale-x-100 dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
             >
               <svg
@@ -148,14 +148,14 @@ function Materials() {
               </svg>
             </span>
 
-            <h1 class="text-2xl font-semibold text-white">Στατιστικά</h1>
+            <h1 class="text-2xl font-semibold text-white">Η ιστορία της Ελλάδας και των Ελλήνων</h1>
 
             <p class="text-gray-300">
-            Στατιστικά στοιχεία για τις αιτήσεις Ελληνικής Ιθαγένειας.
+            Εύκολο κείμενο για την Ελλάδα και τους Έλληνες.
             </p>
 
             <a
-              href="/el/statistics"
+              href="/el/history"
               class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-300 transform bg-blue-100 rounded-full rtl:-scale-x-100 dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
             >
               <svg

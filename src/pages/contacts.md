@@ -1,5 +1,5 @@
 ---
-title: Contacts
+title: Контакты
 hide_table_of_contents: true
 ---
 

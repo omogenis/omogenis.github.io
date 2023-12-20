@@ -98,9 +98,9 @@ const config = {
         },
         items: [
           { to: "/blog", label: "Новости", position: "left" },
-          { to: "/petition", label: "Петиция", position: "left" },
-          { to: "/statistics", label: "Статистика", position: "left" },
-                    {
+          // { to: "/petition", label: "Петиция", position: "left" },
+          // { to: "/statistics", label: "Статистика", position: "left" },
+          {
             type: "doc",
             docId: "intro",
             position: "left",
