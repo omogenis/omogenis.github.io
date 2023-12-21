@@ -94,15 +94,14 @@ function Materials() {
               </svg>
             </span>
 
-            <h1 class="text-2xl font-semibold text-white">Петиция</h1>
+            <h1 class="text-2xl font-semibold text-white">История греков и Греции</h1>
 
             <p class="text-gray-300">
-              Петиция к Правительству Греции об упрощении процедуры
-              натурализации.
+              Небольшие тексты об истории греков и Греции для начинающих изучать язык.
             </p>
 
             <a
-              href="/petition"
+              href="/docs/category/η-ιστορία-της-ελλάδας-και-των-ελλήνων"
               class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-300 transform bg-blue-100 rounded-full rtl:-scale-x-100 dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
             >
               <svg
@@ -140,15 +139,14 @@ function Materials() {
               </svg>
             </span>
 
-            <h1 class="text-2xl font-semibold text-white">Статистика</h1>
+            <h1 class="text-2xl font-semibold text-white">Разговорный клуб</h1>
 
             <p class="text-gray-300">
-              Статистика по ходатайствам о гражданстве Греции от греков стран
-              бывшего Советского союза.
+              Разговорный клуб на греческом для языковой практики.
             </p>
 
             <a
-              href="/statistics"
+              href="https://t.me/Greek_USSR/28751"
               class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-300 transform bg-blue-100 rounded-full rtl:-scale-x-100 dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
             >
               <svg

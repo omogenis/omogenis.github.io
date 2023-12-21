@@ -124,7 +124,7 @@ const config = {
             title: "Подробнее",
             items: [
               {
-                label: "Получение гражданства",
+                label: "Материалы и инструкции",
                 to: "/docs/intro",
               },
               {
