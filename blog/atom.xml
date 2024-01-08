@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://omogenis.ru/blog</id>
-    <title>ομογενής Blog</title>
+    <title>Греки-соотечественники в постсоветских странах Blog</title>
     <updated>2023-02-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://omogenis.ru/blog"/>
-    <subtitle>ομογενής Blog</subtitle>
+    <subtitle>Греки-соотечественники в постсоветских странах Blog</subtitle>
     <icon>https://omogenis.ru/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Το αίτημα εστάλη! | Petition is sent!]]></title>
