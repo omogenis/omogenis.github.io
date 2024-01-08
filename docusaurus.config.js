@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "ομογενής",
+  title: "Греки-соотечественники в постсоветских странах",
   tagline: "Этнические греки из стран бывшего СССР",
   url: "https://omogenis.ru",
   baseUrl: "/",
@@ -85,6 +85,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {name: 'keywords', content: 'гражданство, Греция, натурализация, греки СССР, ходатайство, документы, переводчики, греческий язык, история эллинизма'},
+      ],
       colorMode: {
         defaultMode: "light",
         disableSwitch: true,
