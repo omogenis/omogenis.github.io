@@ -26,7 +26,7 @@ function Header() {
               </div>
               <div>
                 <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl text-white">
-                  Греки-соотечественники в постсоветских странах
+                Греки-соотечественники в&nbsp;постсоветских странах
                 </h1>
                 <p className="mt-6 text-2xl leading-8 text-gray-200 sm:text-center">
                   Ομογενείς στην πρώην Σοβιετική Ένωση
@@ -65,7 +65,7 @@ function Materials() {
     <section class="bg-gray-900">
       <div class="container px-6 py-10 mx-auto">
         <h1 class="text-3xl font-semibold lg:text-4xl text-white">
-          Ознакомьтесь с нашими{" "}
+          Ознакомьтесь с&nbsp;нашими{" "}
           <span class="underline decoration-blue-500">материалами</span>
         </h1>
 
@@ -94,10 +94,10 @@ function Materials() {
               </svg>
             </span>
 
-            <h1 class="text-2xl font-semibold text-white">История греков и Греции</h1>
+            <h1 class="text-2xl font-semibold text-white">История греков и&nbsp;Греции</h1>
 
             <p class="text-gray-300">
-              Небольшие тексты об истории греков и Греции для начинающих изучать язык.
+              Небольшие тексты об&nbsp;истории греков и&nbsp;Греции для начинающих изучать язык.
             </p>
 
             <a
@@ -142,7 +142,7 @@ function Materials() {
             <h1 class="text-2xl font-semibold text-white">Разговорный клуб</h1>
 
             <p class="text-gray-300">
-              Разговорный клуб на греческом для языковой практики.
+              Разговорный клуб на&nbsp;греческом для языковой практики.
             </p>
 
             <a
@@ -185,12 +185,11 @@ function Materials() {
             </span>
 
             <h1 class="text-2xl font-semibold text-white">
-              Материалы и инструкции
+              Материалы и&nbsp;инструкции
             </h1>
 
             <p class="text-gray-300">
-              Инструкции по подготовке пакета документов, контакты переводчиков,
-              ресурсы по изучению Греческого языка и истории эллинизма.
+            Инструкции по&nbsp;подготовке пакета документов, контакты переводчиков, ресурсы по&nbsp;изучению Греческого языка и&nbsp;истории эллинизма.
             </p>
 
             <a

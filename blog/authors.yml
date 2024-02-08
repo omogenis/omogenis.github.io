@@ -7,8 +7,12 @@ maria:
   name: Μαρία
   image_url: '/img/authors/Maria.jpg'
 
+Anna:
+  name: Άννα 
+  image_url: '/img/authors/Anna.jpg'
+
 Dzhukha:
-  Name: Ιβάν Ντζούχα
+  name: Ιβάν Ντζούχα
   image_url: '/img/authors/Ivan-Dzhukha.jpg'
   url: http://www.greek-martirolog.ru
 
