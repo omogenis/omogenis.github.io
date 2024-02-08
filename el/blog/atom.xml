@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://omogenis.ru/el/blog</id>
     <title>Греки-соотечественники в постсоветских странах Blog</title>
-    <updated>2023-02-10T00:00:00.000Z</updated>
+    <updated>2024-01-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://omogenis.ru/el/blog"/>
     <subtitle>Греки-соотечественники в постсоветских странах Blog</subtitle>
     <icon>https://omogenis.ru/el/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Открытая лекция от историка Ивана Джухи]]></title>
+        <id>https://omogenis.ru/el/blog/lecture</id>
+        <link href="https://omogenis.ru/el/blog/lecture"/>
+        <updated>2024-01-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Двадцатого января 2024 года в библиотеке им. А. Гайдара состаялась лекция канд. геогр. наук Ивана Георгиевича Джухи при поддержке сообщества omogenis.ru.]]></summary>
+        <content type="html"><![CDATA[<p>Двадцатого января 2024 года в библиотеке им. А. Гайдара состаялась лекция канд. геогр. наук Ивана Георгиевича Джухи при поддержке сообщества omogenis.ru.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YXaZxPG4sug?si=XxvUT-HhhpwYysPJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>]]></content>
+        <author>
+            <name>Άννα</name>
+        </author>
+        <category label="Встреча" term="Встреча"/>
+        <category label="Лекция" term="Лекция"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Το αίτημα εστάλη!]]></title>
         <id>https://omogenis.ru/el/blog/petition</id>

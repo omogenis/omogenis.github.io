@@ -4,10 +4,21 @@
         <title>Греки-соотечественники в постсоветских странах Blog</title>
         <link>https://omogenis.ru/blog</link>
         <description>Греки-соотечественники в постсоветских странах Blog</description>
-        <lastBuildDate>Fri, 10 Feb 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 20 Jan 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
+        <item>
+            <title><![CDATA[Открытая лекция от историка Ивана Джухи]]></title>
+            <link>https://omogenis.ru/blog/lecture</link>
+            <guid>https://omogenis.ru/blog/lecture</guid>
+            <pubDate>Sat, 20 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Двадцатого января 2024 года в библиотеке им. А. Гайдара состаялась лекция канд. геогр. наук Ивана Георгиевича Джухи при поддержке сообщества omogenis.ru.]]></description>
+            <content:encoded><![CDATA[<p>Двадцатого января 2024 года в библиотеке им. А. Гайдара состаялась лекция канд. геогр. наук Ивана Георгиевича Джухи при поддержке сообщества omogenis.ru.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YXaZxPG4sug?si=XxvUT-HhhpwYysPJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>]]></content:encoded>
+            <category>Встреча</category>
+            <category>Лекция</category>
+        </item>
         <item>
             <title><![CDATA[Το αίτημα εστάλη! | Petition is sent!]]></title>
             <link>https://omogenis.ru/blog/petition</link>
