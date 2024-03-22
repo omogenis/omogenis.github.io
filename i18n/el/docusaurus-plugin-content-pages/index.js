@@ -51,7 +51,7 @@ function Header() {
                     </span>
                   </a>
                   <a
-                    href="/el/history"
+                    href="/el/docs/intro"
                     className="inline-block rounded-lg px-4 py-1.5 text-base ring-white hover:ring-white font-semibold leading-7 text-gray-100 ring-1 ring-white hover:ring-white hover:text-white"
                   >
                     Η ιστορία της Ελλάδας και των Ελλήνων
@@ -194,7 +194,7 @@ function Materials() {
             </span>
 
             <h1 class="text-2xl font-semibold text-white">
-            Υλικά και οδηγίες
+            Υλικό και οδηγίες
             </h1>
 
             <p class="text-gray-300">
