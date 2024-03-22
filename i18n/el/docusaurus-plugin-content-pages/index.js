@@ -74,8 +74,8 @@ function Materials() {
     <section class="bg-gray-900">
       <div class="container px-6 py-10 mx-auto">
         <h1 class="text-3xl font-semibold lg:text-4xl text-white">
-        Ελέγξτε τα {" "}
-          <span class="underline decoration-blue-500">υλικά μας</span>
+        Δείτε το {" "}
+          <span class="underline decoration-blue-500">υλικό μας</span>
         </h1>
 
         <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
