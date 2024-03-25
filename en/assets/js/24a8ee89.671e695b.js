@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkomogenis=self.webpackChunkomogenis||[]).push([[666],{4901:e=>{e.exports=JSON.parse('{"label":"contest","permalink":"/en/blog/tags/contest","allTagsPath":"/en/blog/tags","count":1,"unlisted":false}')}}]);
