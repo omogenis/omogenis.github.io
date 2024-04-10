@@ -11,8 +11,6 @@ import BrowserWindow from '@site/src/components/BrowserWindow';
 <BrowserWindow url="tovima.gr">
 ### Καταψηφίστηκε η πρόταση δυσπιστίας κατά της κυβέρνησης
 
-Απορρίφθηκε από την ολομέλεια της Βουλής η πρόταση δυσπιστίας κατά της κυβέρνησης, που υπέβαλαν το ΠαΣοΚ, ο ΣΥΡΙΖΑ-ΠΣ, η Νέα Αριστερά και η Πλεύση Ελευθερίας, για το θέμα των Τεμπών.
-
 <a className="button button--primary button" href="https://www.tovima.gr/2024/03/28/politics/katapsifistike-i-protasi-dyspistias-kata-tis-kyvernisis/"> Ανοίξτε το άρθρο </a>
 </BrowserWindow>
 
@@ -23,9 +21,7 @@ import BrowserWindow from '@site/src/components/BrowserWindow';
 
 <BrowserWindow url="kathimerini.gr">
 ### Μητσοτάκης: Στα 830 ευρώ ο νέος κατώτατος μισθός από 1ης Απριλίου
-
-Υπό την προεδρία του πρωθυπουργού Κυριάκου Μητσοτάκη συνεδριάζει στο Μέγαρο Μαξίμου το υπουργικό συμβούλιο, στη διάρκεια του οποίου ο πρωθυπουργός ανακοίνωσε τον νέο κατώτατο μισθό ο οποίος θα ανέρχεται στα 830 ευρώ από την 1η Απριλίου. 
-
+  
 <a className="button button--primary button" href="https://www.kathimerini.gr/politics/562954249/mitsotakis-sta-830-eyro-o-neos-katotatos-misthos-apo-1i-aprilioy/"> Ανοίξτε το άρθρο </a>
 </BrowserWindow>
 
@@ -35,8 +31,6 @@ import BrowserWindow from '@site/src/components/BrowserWindow';
 
 <BrowserWindow url="tovima.gr">
 ### Αφρικανική σκόνη: Νέα «εισβολή» 
-
-Η χώρα να βρίσκεται σε κλοιό ζέστης και αφρικανικής σκόνης. Η άμμος από τη Σαχάρα διασχίζει με τη βοήθεια των νοτιάδων τη Μεσόγειο, και φτάνει στην Ελλάδα.
 
 <a className="button button--primary button" href="https://www.tovima.gr/2024/03/31/society/afrikaniki-skoni-nea-eisvoli-pos-mporoume-na-prostateythoume/"> Ανοίξτε το άρθρο </a>
 </BrowserWindow>
@@ -49,8 +43,6 @@ import BrowserWindow from '@site/src/components/BrowserWindow';
 <BrowserWindow url="tovima.gr">
 ### Τράπεζα της Ελλάδος: Μειώθηκαν οι καταθέσεις, αυξήθηκαν τα δάνεια
 
-‘Οπως προκύπτει από τα στοιχεία που δημοσιοποίησε η Τράπεζα της Ελλάδος, οι καταθέσεις από νοικοκυριά και μη κερδοσκοπικά ιδρύματα μειώθηκαν κατά 156 εκατ. ευρώ  στα 144,5 δισ. ευρώ και οι καταθέσεις από επιχειρήσεις εμφάνισαν μείωση  κατά 912 εκατ. ευρώ στα 44,1 δισ. ευρώ.
-
 <a className="button button--primary button" href="https://www.tovima.gr/2024/03/28/finance/trapeza-tis-ellados-meiothikan-oi-katatheseis-ayksithikan-ta-daneia/"> Ανοίξτε το άρθρο </a>
 </BrowserWindow>
 
@@ -59,7 +51,6 @@ import BrowserWindow from '@site/src/components/BrowserWindow';
 
 <BrowserWindow url="tovima.gr">
 ### Γιούλα: Φόβοι για νέα λουκέτα – Η κατάσταση στον κλάδο της βιομηχανίας
-Εξακολουθεί να αντηχεί και να προβληματίζει ο «κρότος» που προκάλεσε η απόφαση των πορτογάλων της BA Glass να κλείσουν το εργοστάσιο υαλουργίας «Γιούλα» στο Αιγάλεω. Κυρίως γιατί επαναφέρει στην επιφάνεια τις δυσκολίες που αντιμετωπίζουν οι εγχώριες βιομηχανίες.
 
 <a className="button button--primary button" href="https://www.tovima.gr/2024/03/26/finance/gioula-fovoi-gia-nea-louketa-i-katastasi-ston-klado-tis-viomixanias/"> Ανοίξτε το άρθρο </a>
 </BrowserWindow>
