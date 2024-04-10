@@ -212,6 +212,53 @@ function Materials() {
               </svg>
             </a>
           </div>
+
+          <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
+            <span class="inline-block text-blue-500 dark:text-blue-400">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-8 h-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 7h1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h11.5M7 14h6m-6 3h6m0-10h.5m-.5 3h.5M7 7h3v3H7V7Z"
+                />
+              </svg>
+            </span>
+
+            <h1 class="text-2xl font-semibold text-white">
+              Новостной дайджест
+            </h1>
+
+            <p class="text-gray-300">
+            Получайте самые актуальные новости из Греции! Наш дайджест предоставляет свежую информацию о событиях в стране.
+            </p>
+
+            <a
+              href="/digests"
+              class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-300 transform bg-blue-100 rounded-full rtl:-scale-x-100 dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
     </section>

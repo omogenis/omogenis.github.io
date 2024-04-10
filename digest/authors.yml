@@ -1,0 +1,18 @@
+iliamiltykh:
+  name: Ηλίας
+  url: https://miltykh.com
+  image_url: 'https://miltykh.com/assets/ideal-img/avatar.329e268.1000.jpg'
+
+maria:
+  name: Μαρία
+  image_url: '/img/authors/Maria.jpg'
+
+Anna:
+  name: Άννα 
+  image_url: '/img/authors/Anna.jpg'
+
+Dzhukha:
+  name: Ιβάν Ντζούχα
+  image_url: '/img/authors/Ivan-Dzhukha.jpg'
+  url: http://www.greek-martirolog.ru
+
