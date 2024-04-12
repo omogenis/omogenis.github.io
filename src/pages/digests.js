@@ -87,7 +87,7 @@ function Digests() {
 
   <div class="flex flex-1 flex-col justify-between">
     <div class="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
-      <a href="#">
+      <a href="/digest/2024/04/14">
         <h3 class="font-bold uppercase text-gray-900">
         08/04/2024-14/04/2024
         </h3>
@@ -132,7 +132,7 @@ function Digests() {
 
   <div class="flex flex-1 flex-col justify-between">
     <div class="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
-      <a href="#">
+      <a href="/digest/2024/04/07/">
         <h3 class="font-bold uppercase text-gray-900">
         01/04/2024-07/04/2024
         </h3>
