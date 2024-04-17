@@ -55,7 +55,7 @@ function Digests() {
 
       <a
                     href="/digest"
-                    className="inline-block rounded-lg px-4 py-1.5 text-base ring-blue-600 hover:ring-blue-600 font-semibold leading-7 text-blue-600 ring-1 ring-white hover:ring-blue-600 hover:text-blue-600"
+                    className="inline-block rounded-lg px-4 py-1.5 text-base ring-blue-700 hover:ring-blue-700 font-semibold leading-7 text-blue-700 ring-1 ring-blue-700 hover:ring-blue-700 hover:text-blue-700"
                   >
                     Все выпуски
                     <span className="text-blue-600 " aria-hidden="true">
@@ -65,6 +65,50 @@ function Digests() {
     </div>
 
     <div class="mt-8 grid grid-cols-1 gap-2 md:grid-cols-2">
+    <article class="flex bg-white transition hover:shadow-xl">
+  <div class="rotate-180 p-2 [writing-mode:_vertical-lr]">
+    <time
+      datetime="2024-04-21"
+      class="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-900"
+    >
+      <span>2024</span>
+      <span class="w-px flex-1 bg-gray-900/10"></span>
+      <span>Απρίλιος</span>
+    </time>
+  </div>
+
+  <div class="hidden sm:block sm:basis-56">
+    <img
+      alt=""
+      src="https://www.kathimerini.gr/wp-content/uploads/2024/04/a4-156.jpg?v=1713020745"
+      class="aspect-square h-full w-full object-cover"
+    />
+  </div>
+
+  <div class="flex flex-1 flex-col justify-between">
+    <div class="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
+      <a href="/digest/2024/04/17/">
+        <h3 class="font-bold uppercase text-gray-900">
+        15/04/2024-21/04/2024
+        </h3>
+      </a>
+
+      <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
+      Πολιτική.
+      Άρθρο του Κυριάκου Μητσοτάκη στην «Κ»: Η προστασία του περιβάλλοντος είναι και γαλάζια
+      </p>
+    </div>
+
+    <div class="sm:flex sm:items-end sm:justify-end">
+      <a
+        href="/digest/2024/04/17/"
+        class="block bg-blue-600 px-5 py-3 text-center text-xs font-bold uppercase text-white transition hover:bg-blue-600 hover:text-white"
+      >
+        Подробнее
+      </a>
+    </div>
+  </div>
+</article>
     <article class="flex bg-white transition hover:shadow-xl">
   <div class="rotate-180 p-2 [writing-mode:_vertical-lr]">
     <time
@@ -102,50 +146,6 @@ function Digests() {
     <div class="sm:flex sm:items-end sm:justify-end">
       <a
         href="/digest/2024/04/14/"
-        class="block bg-blue-600 px-5 py-3 text-center text-xs font-bold uppercase text-white transition hover:bg-blue-600 hover:text-white"
-      >
-        Подробнее
-      </a>
-    </div>
-  </div>
-</article>
-
-<article class="flex bg-white transition hover:shadow-xl">
-  <div class="rotate-180 p-2 [writing-mode:_vertical-lr]">
-    <time
-      datetime="2024-04-07"
-      class="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-900"
-    >
-      <span>2024</span>
-      <span class="w-px flex-1 bg-gray-900/10"></span>
-      <span>Απρίλιος</span>
-    </time>
-  </div>
-
-  <div class="hidden sm:block sm:basis-56">
-    <img
-      alt=""
-      src="https://www.tovima.gr/wp-content/uploads/2024/04/07/MAT.jpg"
-      class="aspect-square h-full w-full object-cover"
-    />
-  </div>
-
-  <div class="flex flex-1 flex-col justify-between">
-    <div class="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
-      <a href="/digest/2024/04/07/">
-        <h3 class="font-bold uppercase text-gray-900">
-        01/04/2024-07/04/2024
-        </h3>
-      </a>
-
-      <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
-      Πολιτική. Αστυνομία: Παραμένουν εν υπηρεσία 107 ένστολοι με καταδίκες-5.000 ΕΔΕ ετησίως. Σε αστυνομικές υπηρεσίες ή «ενεργοί» εντός της Αστυνομίας λόγω διαδικαστικών εκκρεμοτήτων παραμένουν σήμερα 107 αστυνομικοί που έχουν διαπράξει σοβαρά ποινικά αδικήματα και έχει ζητηθεί πειθαρχικά η αποχώρησή τους από την ΕΛ.ΑΣ.
-      </p>
-    </div>
-
-    <div class="sm:flex sm:items-end sm:justify-end">
-      <a
-        href="/digest/2024/04/07/"
         class="block bg-blue-600 px-5 py-3 text-center text-xs font-bold uppercase text-white transition hover:bg-blue-600 hover:text-white"
       >
         Подробнее
