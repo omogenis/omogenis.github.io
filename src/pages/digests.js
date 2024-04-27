@@ -65,6 +65,51 @@ function Digests() {
     </div>
 
     <div class="mt-8 grid grid-cols-1 gap-2 md:grid-cols-2">
+
+    <article class="flex bg-white transition hover:shadow-xl">
+  <div class="rotate-180 p-2 [writing-mode:_vertical-lr]">
+    <time
+      datetime="2024-04-27"
+      class="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-900"
+    >
+      <span>2024</span>
+      <span class="w-px flex-1 bg-gray-900/10"></span>
+      <span>Απρίλιος</span>
+    </time>
+  </div>
+
+  <div class="hidden sm:block sm:basis-56">
+    <img
+      alt=""
+      src="https://www.tovima.gr/wp-content/uploads/2024/04/25/462A7015.jpg"
+      class="aspect-square h-full w-full object-cover"
+    />
+  </div>
+
+  <div class="flex flex-1 flex-col justify-between">
+    <div class="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
+      <a href="/digest/2024/04/28">
+        <h3 class="font-bold uppercase text-gray-900">
+        22/04/2024–28/04/2024
+        </h3>
+      </a>
+
+      <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
+      Πολιτική. Υπουργείο Εσωτερικών: Το πόρισμα για τη διαρροή των στοιχείων Ελλήνων του εξωτερικού
+      </p>
+    </div>
+
+    <div class="sm:flex sm:items-end sm:justify-end">
+      <a
+        href="/digest/2024/04/28/"
+        class="block bg-blue-600 px-5 py-3 text-center text-xs font-bold uppercase text-white transition hover:bg-blue-600 hover:text-white"
+      >
+        Подробнее
+      </a>
+    </div>
+  </div>
+</article>
+
     <article class="flex bg-white transition hover:shadow-xl">
   <div class="rotate-180 p-2 [writing-mode:_vertical-lr]">
     <time
@@ -109,50 +154,7 @@ function Digests() {
     </div>
   </div>
 </article>
-    <article class="flex bg-white transition hover:shadow-xl">
-  <div class="rotate-180 p-2 [writing-mode:_vertical-lr]">
-    <time
-      datetime="2024-04-14"
-      class="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-900"
-    >
-      <span>2024</span>
-      <span class="w-px flex-1 bg-gray-900/10"></span>
-      <span>Απρίλιος</span>
-    </time>
-  </div>
 
-  <div class="hidden sm:block sm:basis-56">
-    <img
-      alt=""
-      src="https://www.tovima.gr/wp-content/uploads/2024/04/09/%CE%92%CE%99%CE%91-%CE%91%CE%9D%CE%97%CE%9B%CE%99%CE%9A%CE%9F%CE%99-1.jpg"
-      class="aspect-square h-full w-full object-cover"
-    />
-  </div>
-
-  <div class="flex flex-1 flex-col justify-between">
-    <div class="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
-      <a href="/digest/2024/04/14">
-        <h3 class="font-bold uppercase text-gray-900">
-        08/04/2024-14/04/2024
-        </h3>
-      </a>
-
-      <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
-      Πολιτική. Bullying στα σχολεία: Νέα μέτρα για την αντιμετώπισή του
-Τη Θεσσαλονίκη επισκέπτεται σήμερα ο πρωθυπουργός Κυριάκος Μητσοτάκης, όπου στο πλαίσιο εκδήλωσης, στο 3ο Γυμνάσιο Πολίχνης, θα παρουσιάσει την εθνική καμπάνια για την αντιμετώπιση της ενδοσχολικής βίας, με στόχο να σπάσει ο φαύλος κύκλος βίας με θύματα και δράστες ανήλικα παιδιά.
-      </p>
-    </div>
-
-    <div class="sm:flex sm:items-end sm:justify-end">
-      <a
-        href="/digest/2024/04/14/"
-        class="block bg-blue-600 px-5 py-3 text-center text-xs font-bold uppercase text-white transition hover:bg-blue-600 hover:text-white"
-      >
-        Подробнее
-      </a>
-    </div>
-  </div>
-</article>
     </div>
   </div>
 </section>
