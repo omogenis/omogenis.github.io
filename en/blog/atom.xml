@@ -2,11 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://omogenis.ru/en/blog</id>
     <title>Греки-соотечественники в постсоветских странах Blog</title>
-    <updated>2024-03-25T00:00:00.000Z</updated>
+    <updated>2024-04-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://omogenis.ru/en/blog"/>
     <subtitle>Греки-соотечественники в постсоветских странах Blog</subtitle>
     <icon>https://omogenis.ru/en/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[«Прекрасный путь тебе Итака подарила...»]]></title>
+        <id>https://omogenis.ru/en/blog/cavafy</id>
+        <link href="https://omogenis.ru/en/blog/cavafy"/>
+        <updated>2024-04-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[29 апреля отмечается 160 лет со дня рождения реформатора и основоположника современной греческой литературы Константиноса Кавафиса и 90 лет со дня его смерти.]]></summary>
+        <content type="html"><![CDATA[<p><strong>29&nbsp;апреля отмечается 160 лет со&nbsp;дня рождения реформатора и&nbsp;основоположника современной греческой литературы Константиноса Кавафиса и&nbsp;90&nbsp;лет со&nbsp;дня его смерти.</strong></p>
+<p><img decoding="async" loading="lazy" alt="Вечер памяти К. Кавафиса" src="https://omogenis.ru/en/assets/images/Kavafy-d3864e942b36b2d34538e8c84e3bcfc6.png" width="596" height="842" class="img_ev3q"></p>
+<p>Накануне состоялся вечер памяти поэта, на&nbsp;котором прозвучали стихотворения «Город», «Стены», «Итака», «Троянцы», «Свечи», «Голоса», «По&nbsp;мере сил», «Бог покидает Антония» и&nbsp;другие на&nbsp;греческом языке и&nbsp;в&nbsp;переводах Г.&nbsp;Шмакова, И. Бродского, С.&nbsp;Ильинской и&nbsp;Ю.&nbsp;Мориц.</p>
+<p>Своими любимыми лирическими текстами Кавафиса поделились преподаватели кафедры классической филологии, русской литературы и&nbsp;журналистики Института филологии Петрозаводского государственного университета Елена Владимировна Каурова и&nbsp;Евгения Петровна Литинская, студенты-классики Елизавета Ивлева, Арина Абрамова, Александра Козырева, Юлия Калинина, Мария Мартемьянова и&nbsp;Тата Черемовская, греки, которые сейчас живут в&nbsp;России, публицист, преподаватель школы греческого языка «Эллиника» Екатерина Аравани, Илья Милтых, представитель сообщества OMOGENIS.RU и другие члены сообщества.</p>
+<p>Чтение стихотворений сопровождалось комментариями и&nbsp;личными впечатлениями выступающих. Лейтмотивом звучала мысль о&nbsp;том, что как&nbsp;бы ни&nbsp;были удачны переводы, далеко не&nbsp;во&nbsp;всех случаях они передают смысл, интонацию оригинала в&nbsp;полном объеме.</p>
+<p>Мероприятие организовано кафедрой классической филологии, русской литературы и&nbsp;журналистики Института филологии Петрозаводского государственного университета при поддержке сообщества OMOGENIS.RU.</p>]]></content>
+        <author>
+            <name>Ηλίας</name>
+            <uri>https://miltykh.com</uri>
+        </author>
+        <category label="поэтический вечер" term="поэтический вечер"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Message of the President of the Hellenic Republic Katerina Sakellaropoulou to the expatriate Greeks on the occasion of the national holiday of 25 March]]></title>
         <id>https://omogenis.ru/en/blog/2024/03/25/</id>
