@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkomogenis=self.webpackChunkomogenis||[]).push([[2400],{4633:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-blog","id":"digest"}')}}]);

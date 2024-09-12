@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkomogenis=self.webpackChunkomogenis||[]).push([[9750],{5157:e=>{e.exports=JSON.parse('{"label":"Petition","permalink":"/blog/tags/petition","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

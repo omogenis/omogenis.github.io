@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkomogenis=self.webpackChunkomogenis||[]).push([[1974],{3485:e=>{e.exports=JSON.parse('{"permalink":"/el/blog/tags/\u043f\u0435\u0442\u0438\u0446\u0438\u044f","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

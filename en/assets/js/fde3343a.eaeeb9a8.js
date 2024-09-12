@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkomogenis=self.webpackChunkomogenis||[]).push([[4472],{8464:e=>{e.exports=JSON.parse('{"blogBasePath":"/en/digest","blogTitle":"Blog"}')}}]);
