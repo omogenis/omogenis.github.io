@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkomogenis=self.webpackChunkomogenis||[]).push([[4580],{9287:s=>{s.exports=JSON.parse('{"label":"\u043a\u043e\u043d\u043a\u0443\u0440\u0441","permalink":"/blog/tags/\u043a\u043e\u043d\u043a\u0443\u0440\u0441","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
