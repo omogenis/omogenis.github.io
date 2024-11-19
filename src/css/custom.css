@@ -48,3 +48,22 @@
     display: none !important;
     opacity: 0;
 }
+
+a.no-underline {
+  text-decoration: none !important;
+}
+
+/* Disable underline for links styled as buttons */
+a.button {
+  text-decoration: none !important;
+}
+
+/* Ensure no underline on hover and focus states */
+a.button:hover,
+a.button:focus {
+  text-decoration: none !important;
+}
+
+.inline-block {
+  text-decoration: none !important;
+}
