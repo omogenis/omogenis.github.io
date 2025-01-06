@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkomogenis=self.webpackChunkomogenis||[]).push([[8158],{8158:(e,s,a)=>{a.r(s),a.d(s,{DocSearchModal:()=>o.a1});var o=a(5600)}}]);
