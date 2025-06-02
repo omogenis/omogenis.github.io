@@ -168,7 +168,7 @@ const config = {
               },
               {
                 label: "Telegram чат",
-                href: "https://t.me/+GiOOaM4Qsk04Y2Ji",
+                href: "https://t.me/Greek_USSR",
               },
             ],
           },
