@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import GeoRedirect from "@site/src/components/GeoRedirect"; // Import the new component
 
 function Header() {
   const { siteConfig } = useDocusaurusContext();
@@ -33,10 +34,10 @@ function Header() {
                 </p>
                 <div className="mt-8 flex gap-x-4 sm:justify-center">
                   <a
-                    href="/petition"
+                    href="/docs/intro"
                     className="inline-block rounded-lg px-4 py-1.5 text-base ring-white hover:ring-white font-semibold leading-7 text-gray-100 ring-1 ring-white hover:ring-white hover:text-white"
                   >
-                    Петиция
+                    Материалы
                     <span className="text-blue-200 " aria-hidden="true">
                       &rarr;
                     </span>
@@ -272,6 +273,7 @@ export default function Home() {
       title={`Главная`}
       description="Греки-соотечественники в постсоветских странах - это сайт, посвященный греческому гражданству и культуре для греков-соотечественников из стран бывшего Советского союза. На сайте вы найдете полезную информацию о процедуре натурализации, подготовке документов, изучении греческого языка и истории, а также контакты адвокатов и переводчиков. Присоединяйтесь к нашему сообществу и узнайте больше о греческом наследии."
     >
+      <GeoRedirect />
       <Header />
       <Materials />
       <main>{/* <HomepageFeatures /> */}</main>

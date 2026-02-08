@@ -2,6 +2,9 @@
 sidebar_position: 4
 ---
 
+import BrowserWindow from '@site/src/components/BrowserWindow';
+import WaitingTimesChart from '@site/src/components/WaitingTimesChart';
+
 # Рассмотрение заявления
 
 После прохождения собеседования пакет документов отправляется в Министерство внутренних дел Греческой Республики. 
@@ -10,12 +13,158 @@ sidebar_position: 4
 
 Посмотреть статус дела можно на сайте Генерального секретариата по делам гражданства Министерства внутренних дел Греческой Республики.
 
-![Пример заполнения формы для проверки статуса заявления](@site/static/img/ypes-example.png)
+<BrowserWindow url="https://pf.emigrants.ypes.gr/pfiua/">
+  <div className="ypes-mockup" style={{backgroundColor: 'white', minHeight: '650px', fontFamily: '"Open Sans", sans-serif', fontSize: '100%'}}>
+    <style>{`
+      .ypes-mockup * { box-sizing: border-box; margin: 0; padding: 0; }
+      .ypes-mockup #logintop { position: relative; background-color: inherit; text-align: center; margin-left: auto; margin-right: auto; font-family: Roboto, sans-serif; font-size: 22px; color: rgb(34, 58, 115); padding-top: 10px; }
+      .ypes-mockup #logintop h1 { font-size: 18px; color: rgb(34, 58, 115); padding-top: 20px; padding-bottom: 10px; margin: 0; line-height: 1.2;}
+      .ypes-mockup #logintop p { margin: 0; }
+      .ypes-mockup #logintop img { width: 280px; max-width: calc(-60px + 95vw); height: auto; }
+      
+      .ypes-mockup .form-wrapper { display: flex; flex-direction: column; align-items: center; }
+      .ypes-mockup .instructions { width: 300px; color: rgb(34, 58, 115); font-size: 9pt; background-color: white; text-align: center; font-style: italic; margin-bottom: 15px; }
+      
+      /* Row container to align Form Field and Red Label */
+      .ypes-mockup .row-container { display: flex; align-items: center; width: 100%; max-width: 800px; justify-content: center; margin-bottom: 2px; }
+      
+      /* The Form Part (Fixed Width matching YPES) */
+      .ypes-mockup .fieldcontainer { width: 300px; padding: 10px; position: relative; display: flex; flex-wrap: wrap; align-items: center; flex-shrink: 0; }
+      .ypes-mockup .leftspan { display: flex; align-items: center; flex: 0 0 40%; min-width: 120px; font-weight: bold; color: rgb(34, 58, 115); font-size: 14px; padding-left: 12px; }
+      .ypes-mockup .rightspan { display: flex; flex-wrap: wrap; align-items: center; flex: 1 0 60%; }
+      .ypes-mockup .ddi_labels::after { content: " *"; color: red; }
+      
+      /* Inputs */
+      .ypes-mockup input, .ypes-mockup select { border: 1px solid rgb(204, 204, 204); border-radius: 5px; font-family: "Open Sans", sans-serif; font-weight: normal; padding: 8px 12px; margin: 2px 0px; width: 100%; font-size: 16px; appearance: none; background-color: white; }
+      .ypes-mockup input:focus, .ypes-mockup select:focus { border: 1px solid rgb(0, 149, 235); outline: none; }
+      .ypes-mockup select { background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23CCCCCC%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E"); background-repeat: no-repeat; background-size: 0.65em; background-position: right 0.7em top 50%; }
+      
+      /* Buttons */
+      .ypes-mockup .buttons-div { width: 300px; }
+      .ypes-mockup input[type="submit"] { background-color: rgb(0, 149, 235); color: white; border: 2px solid white; cursor: pointer; font-weight: bold; margin-top: 5px; }
+      .ypes-mockup #refreshcaptcha { background-color: rgb(179, 227, 255); color: black; border: 1px solid rgb(204, 204, 204); }
+      
+      /* Red Labels */
+      .ypes-mockup .label-text { flex-grow: 1; padding-left: 15px; color: #e74c3c; font-size: 13px; line-height: 1.4; max-width: 300px; }
+    `}</style>
+
+    <div id="logintop">
+      <img src="https://pf.emigrants.ypes.gr/pfiua/static/ypes-logo-el.png" alt="YPES Logo" />
+      <p>ΓΕΝΙΚΗ ΓΡΑΜΜΑΤΕΙΑ ΙΘΑΓΕΝΕΙΑΣ</p>
+      <h1>Πορεία Υπόθεσης Κτήσης Ιθαγένειας</h1>
+      <p>Αναζήτηση</p>
+    </div>
+
+    <div className="form-wrapper">
+      <div className="instructions">
+        Συμπληρώστε τα ονοματεπωνυμικά σας στοιχεία με κατ'ελάχιστον δύο (2) ελληνικούς χαρακτήρες. Όλα τα πεδία είναι υποχρεωτικά.
+      </div>
+
+      <form onSubmit={(e) => e.preventDefault()}>
+        
+        {/* Field 1: Authority */}
+        <div className="row-container">
+          <div className="fieldcontainer">
+            <div className="leftspan">
+              <div className="ddi_labels">Υπηρεσία</div>
+            </div>
+            <div className="rightspan">
+              <select id="authority" name="authority" required defaultValue="199">
+                <option value="0">...</option>
+                <option value="199">ΥΠ.ΕΣ. ΚΕΝΤΡΙΚΗ ΔΙΕΥΘΥΝΣΗ ΙΘΑΓΕΝΕΙΑΣ</option>
+              </select>
+            </div>
+          </div>
+          <div className="label-text">
+            ← ΥΠ.ΕΣ. ΚΕΝΤΡΙΚΗ ΔΙΕΥΘΥΝΣΗ ΙΘΑΓΕΝΕΙΑΣ
+          </div>
+        </div>
+
+        {/* Field 2: File ID */}
+        <div className="row-container">
+          <div className="fieldcontainer">
+            <div className="leftspan">
+              <div className="ddi_labels">Αρ. Φακέλου</div>
+            </div>
+            <div className="rightspan">
+              <input id="fileid" name="fileid" required type="text" />
+            </div>
+          </div>
+          <div className="label-text">
+            ← Номер дела, зарегистрированного в отделе после прибытия документов в Грецию
+          </div>
+        </div>
+
+        {/* Field 3: Surname */}
+        <div className="row-container">
+          <div className="fieldcontainer">
+            <div className="leftspan">
+              <div className="ddi_labels">Επώνυμο</div>
+            </div>
+            <div className="rightspan">
+              <input id="surname" name="surname" required type="text" />
+            </div>
+          </div>
+          <div className="label-text">
+            ← 2-3 буквы фамилии в греческом написании ЗАГЛАВНЫМИ буквами
+          </div>
+        </div>
+
+        {/* Field 4: Name */}
+        <div className="row-container">
+          <div className="fieldcontainer">
+            <div className="leftspan">
+              <div className="ddi_labels">Όνομα</div>
+            </div>
+            <div className="rightspan">
+              <input id="name" name="name" required type="text" />
+            </div>
+          </div>
+          <div className="label-text">
+            ← 2-3 буквы имени в греческом написании ЗАГЛАВНЫМИ буквами
+          </div>
+        </div>
+
+        {/* Field 5: Captcha (No Image) */}
+        <div className="row-container">
+          <div className="fieldcontainer">
+            <div className="leftspan">
+              <div className="ddi_labels">Δεν είμαι μηχανή</div>
+            </div>
+            <div className="rightspan">
+              <div><input style={{width: '160px'}} id="captcha" name="captcha" type="text" /></div>
+              <div style={{
+                marginLeft: '5px', 
+                border: '1px solid #ccc', 
+                borderRadius: '3px', 
+                padding: '5px 10px',
+                backgroundColor: '#f0f0f0',
+                color: '#555',
+                fontSize: '14px'
+              }}>
+                captcha
+              </div>
+            </div>
+          </div>
+          <div className="label-text">
+            ← капча
+          </div>
+        </div>
+
+        {/* Buttons */}
+        <div className="buttons-div">
+          <div><input formNoValidate id="refreshcaptcha" name="refreshcaptcha" type="submit" value="Ανανέωση captcha" /></div>
+          <div><input id="submit" name="submit" type="submit" value="Αναζήτηση" /></div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</BrowserWindow>
 
 :::danger Внимание!
 
 Вводите **2-3 буквы фамилии и имени на греческом языке** в той транслитерации, как они были представлены в вашем заявлении, **ЗАГЛАВНЫМИ буквами**!
-
 :::
 
 <div className="mt-8 flex gap-x-4 sm:justify-right">
@@ -34,9 +183,4 @@ sidebar_position: 4
 
 ## Статистика принятых решений
 
-<iframe title="Официальная статистика по натурализации экспатриантов из стран бывшего СССР" aria-label="Stacked Column Chart" id="datawrapper-chart-Sevgr" src="https://datawrapper.dwcdn.net/Sevgr/2/" scrolling="no" frameborder="0" class="datawrapper" data-external="1"></iframe>
-
-<iframe aria-label="Column Chart" id="datawrapper-chart-5WSdG" src="https://datawrapper.dwcdn.net/5WSdG/" scrolling="no" frameborder="0" class="datawrapper-graph" height="409" data-external="1"></iframe>
-
-<iframe title="Время рассмотрения дела" aria-label="Range Plot" id="datawrapper-chart-tGdnB" src="https://datawrapper.dwcdn.net/tGdnB/" scrolling="no" frameborder="0" class="datawrapper-graph" height="972" data-external="1"></iframe>
-
+<WaitingTimesChart />

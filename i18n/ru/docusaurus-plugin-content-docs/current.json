@@ -1,0 +1,46 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.ellinika.category.Η ιστορία της Ελλάδας και των Ελλήνων": {
+    "message": "Η ιστορία της Ελλάδας και των Ελλήνων",
+    "description": "The label for category 'Η ιστορία της Ελλάδας και των Ελλήνων' in sidebar 'ellinika'"
+  },
+  "sidebar.tutorialSidebar.category.Порядок натурализации": {
+    "message": "Порядок натурализации",
+    "description": "The label for category 'Порядок натурализации' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Порядок натурализации.link.generated-index.description": {
+    "message": "Порядок действий по натурализации греков СССР",
+    "description": "The generated-index page description for category 'Порядок натурализации' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Подготовка документов в стране бывшего Советского союза": {
+    "message": "Подготовка документов в стране бывшего Советского союза",
+    "description": "The label for category 'Подготовка документов в стране бывшего Советского союза' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Подготовка документов в стране бывшего Советского союза.link.generated-index.description": {
+    "message": "Подготовка документов в стране бывшего Советского союза",
+    "description": "The generated-index page description for category 'Подготовка документов в стране бывшего Советского союза' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Изучение Греческого языка и истории греков": {
+    "message": "Изучение Греческого языка и истории греков",
+    "description": "The label for category 'Изучение Греческого языка и истории греков' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Изучение Греческого языка и истории греков.link.generated-index.description": {
+    "message": "Учебные пособия для изучения греческого языка.",
+    "description": "The generated-index page description for category 'Изучение Греческого языка и истории греков' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Полезная информация": {
+    "message": "Полезная информация",
+    "description": "The label for category 'Полезная информация' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Полезная информация.link.generated-index.description": {
+    "message": "Информация об адвокатах и переводчиках, преподавателях Греческого языка, примерных вопросах.",
+    "description": "The generated-index page description for category 'Полезная информация' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Η ιστορία της Ελλάδας και των Ελλήνων": {
+    "message": "Η ιστορία της Ελλάδας και των Ελλήνων",
+    "description": "The label for category 'Η ιστορία της Ελλάδας και των Ελλήνων' in sidebar 'tutorialSidebar'"
+  }
+}

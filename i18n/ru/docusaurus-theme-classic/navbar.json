@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "ομογενής",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Греки стран бывшего Советского союза",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Новости": {
+    "message": "Новости",
+    "description": "Navbar item with label Новости"
+  },
+  "item.label.Статистика": {
+    "message": "Статистика",
+    "description": "Navbar item with label Статистика"
+  },
+  "item.label.Материалы и инструкции": {
+    "message": "Материалы и инструкции",
+    "description": "Navbar item with label Материалы и инструкции"
+  },
+  "item.label.Новостной дайджест": {
+    "message": "Новостной дайджест",
+    "description": "Navbar item with label Новостной дайджест"
+  },
+  "item.label.Контакты": {
+    "message": "Контакты",
+    "description": "Navbar item with label Контакты"
+  }
+}

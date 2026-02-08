@@ -1,0 +1,34 @@
+{
+  "link.title.Подробнее": {
+    "message": "Подробнее",
+    "description": "The title of the footer links column with title=Подробнее in the footer"
+  },
+  "link.title.Сообщество": {
+    "message": "Сообщество",
+    "description": "The title of the footer links column with title=Сообщество in the footer"
+  },
+  "link.item.label.Материалы и инструкции": {
+    "message": "Материалы и инструкции",
+    "description": "The label of footer link with label=Материалы и инструкции linking to /docs/intro"
+  },
+  "link.item.label.Новости": {
+    "message": "Новости",
+    "description": "The label of footer link with label=Новости linking to /blog"
+  },
+  "link.item.label.Греческие общества": {
+    "message": "Греческие общества",
+    "description": "The label of footer link with label=Греческие общества linking to https://rusgreek.ru/regions"
+  },
+  "link.item.label.Адвокаты и переводчики": {
+    "message": "Адвокаты и переводчики",
+    "description": "The label of footer link with label=Адвокаты и переводчики linking to /docs/more-info/lawyers"
+  },
+  "link.item.label.Telegram чат": {
+    "message": "Telegram чат",
+    "description": "The label of footer link with label=Telegram чат linking to https://t.me/Greek_USSR"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 ομογενής.",
+    "description": "The footer copyright"
+  }
+}

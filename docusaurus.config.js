@@ -47,22 +47,7 @@ const config = {
         path: './digest',
       },
     ],
-/*     [
-      '@docusaurus/plugin-client-redirects',
-      {
-        redirects: [
-          // /docs/oldDoc -> /docs/newDoc
-          {
-            to: '/el/petition',
-            from: '/petition-gr',
-          },
-          {
-            to: '/el/statistics',
-            from: '/statistics-gr',
-          },
-        ],
-      },
-    ], */
+
     async function myPlugin(context, options) {
       return {
         name: "docusaurus-tailwindcss",
@@ -119,8 +104,7 @@ const config = {
         },
         items: [
           { to: "/blog", label: "Новости", position: "left" },
-          // { to: "/petition", label: "Петиция", position: "left" },
-          // { to: "/statistics", label: "Статистика", position: "left" },
+           { to: "/statistics", label: "Статистика", position: "left" },
           {
             type: "doc",
             docId: "intro",
