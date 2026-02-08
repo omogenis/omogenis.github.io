@@ -8,7 +8,8 @@ import {
   Title,
   Tooltip,
   Legend,
-  TimeScale
+  TimeScale,
+  ScatterController //
 } from 'chart.js';
 import { Chart } from 'react-chartjs-2';
 import 'chartjs-adapter-date-fns';
@@ -24,7 +25,8 @@ ChartJS.register(
   Title, 
   Tooltip, 
   Legend,
-  TimeScale
+  TimeScale,
+  ScatterController // Register the controller here
 );
 
 // --- CONFIGURATION ---
