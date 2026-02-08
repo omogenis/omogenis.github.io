@@ -33,10 +33,10 @@ function Header() {
                 </p>
                 <div className="mt-8 flex gap-x-4 sm:justify-center">
                   <a
-                    href="/el/petition"
+                    href="/el/docs/intro"
                     className="inline-block rounded-lg px-4 py-1.5 text-base ring-white hover:ring-white font-semibold leading-7 text-gray-100 ring-1 ring-white hover:ring-white hover:text-white"
                   >
-                    Ανοιχτή Επιστολή
+                    Υλικό και οδηγίες
                     <span className="text-blue-200 " aria-hidden="true">
                       &rarr;
                     </span>

@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import GeoRedirect from "@site/src/components/GeoRedirect"; // Import the new component
 
 function Header() {
   const { siteConfig } = useDocusaurusContext();
@@ -13,31 +14,40 @@ function Header() {
               <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                 <div className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-white">
                   <span className="text-white">
-                  Help stop the discrimination of Greek expatriates from the former USSR {" "}
+                  Open the website in Greek {" "}
                     <a
-                      href="/petition"
+                      href="/el"
                       className="font-semibold text-white hover:text-white"
                     >
                       <span className="absolute inset-0" aria-hidden="true" />
-                      Learn More <span aria-hidden="true">&rarr;</span>
+                      Go! <span aria-hidden="true">&rarr;</span>
                     </a>
                   </span>
                 </div>
               </div>
               <div>
                 <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl text-white">
-                Greek expatriates from former USSR
+                Greek expatriates in post-Soviet countries
                 </h1>
                 <p className="mt-6 text-2xl leading-8 text-gray-200 sm:text-center">
                   Ομογενείς στην πρώην Σοβιετική Ένωση
                 </p>
                 <div className="mt-8 flex gap-x-4 sm:justify-center">
                   <a
-                    href="/en/petition"
+                    href="/docs/intro"
                     className="inline-block rounded-lg px-4 py-1.5 text-base ring-white hover:ring-white font-semibold leading-7 text-gray-100 ring-1 ring-white hover:ring-white hover:text-white"
                   >
-                    Petition
+                    Materials
                     <span className="text-blue-200 " aria-hidden="true">
+                      &rarr;
+                    </span>
+                  </a>
+                  <a
+                    href="/statistics"
+                    className="inline-block rounded-lg px-4 py-1.5 text-base ring-white hover:ring-white font-semibold leading-7 text-gray-100 ring-1 ring-white hover:ring-white hover:text-white"
+                  >
+                    Statistics
+                    <span className="text-gray-100" aria-hidden="true">
                       &rarr;
                     </span>
                   </a>
@@ -85,14 +95,14 @@ function Materials() {
               </svg>
             </span>
 
-            <h1 class="text-2xl font-semibold text-white">Petition</h1>
+            <h1 class="text-2xl font-semibold text-white">History of Greeks and Greece</h1>
 
             <p class="text-gray-300">
-            Request by expatriates from former Soviet Union countries for simplification of naturalisation procedures
+            Short texts about the history of Greeks and Greece for language learners.
             </p>
 
             <a
-              href="/en/petition"
+              href="/docs/category/η-ιστορία-της-ελλάδας-και-των-ελλήνων"
               class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-300 transform bg-blue-100 rounded-full rtl:-scale-x-100 dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
             >
               <svg
@@ -130,14 +140,14 @@ function Materials() {
               </svg>
             </span>
 
-            <h1 class="text-2xl font-semibold text-white">Statistics</h1>
+            <h1 class="text-2xl font-semibold text-white">Speaking Club</h1>
 
             <p class="text-gray-300">
-            Statistics on applications for Greek Citizenship.
+            Speaking club in Greek for language practice.
             </p>
 
             <a
-              href="/en/statistics"
+              href="https://t.me/Greek_USSR/28751"
               class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-300 transform bg-blue-100 rounded-full rtl:-scale-x-100 dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
             >
               <svg
@@ -176,15 +186,62 @@ function Materials() {
             </span>
 
             <h1 class="text-2xl font-semibold text-white">
-            Guides and instructions
+            Materials and instructions
             </h1>
 
             <p class="text-gray-300">
-            Instructions on how to prepare a document set, contacts for translators, resources on Greek and Hellenistic history (in Russian).
+            Instructions on preparing documents, translator contacts, resources for learning Greek language and Hellenism history.
             </p>
 
             <a
-              href="/en/docs/intro"
+              href="/docs/intro"
+              class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-300 transform bg-blue-100 rounded-full rtl:-scale-x-100 dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
+            <span class="inline-block text-blue-500 dark:text-blue-400">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-8 h-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 7h1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h11.5M7 14h6m-6 3h6m0-10h.5m-.5 3h.5M7 7h3v3H7V7Z"
+                />
+              </svg>
+            </span>
+
+            <h1 class="text-2xl font-semibold text-white">
+            News Digest
+            </h1>
+
+            <p class="text-gray-300">
+            Get the latest news from Greece! Our digest provides fresh information about events in the country.
+            </p>
+
+            <a
+              href="/digests"
               class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-300 transform bg-blue-100 rounded-full rtl:-scale-x-100 dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
             >
               <svg
@@ -213,9 +270,10 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Greeks from the former Soviet Union`}
-      description="Learning Greek, acquiring citizenship and useful tips"
+      title={`Home`}
+      description="Greek expatriates in post-Soviet countries is a website dedicated to Greek citizenship and culture for Greek expatriates from the former Soviet Union. On the site you will find useful information about naturalization procedures, document preparation, learning Greek language and history, as well as contacts for lawyers and translators. Join our community and learn more about Greek heritage."
     >
+      <GeoRedirect />
       <Header />
       <Materials />
       <main>{/* <HomepageFeatures /> */}</main>
