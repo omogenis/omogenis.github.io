@@ -67,3 +67,7 @@ a.button:focus {
 .inline-block {
   text-decoration: none !important;
 }
+
+.datawrapper-graph {
+  width: 0; min-width: 100% !important; border: none;
+}

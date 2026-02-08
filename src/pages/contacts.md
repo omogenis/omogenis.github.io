@@ -25,6 +25,6 @@ hide_table_of_contents: true
 4. Запрет участнику на доступ в чат или его бан.
 
 <a
-className="button button--primary button--lg" href="https://t.me/+GiOOaM4Qsk04Y2Ji">
+className="button button--primary button--lg" href="https://t.me/Greek_USSR">
 Вступить в чат!
 </a>
