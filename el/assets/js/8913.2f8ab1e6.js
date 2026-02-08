@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkomogenis=globalThis.webpackChunkomogenis||[]).push([[8913],{8913(s,o,e){e.r(o)}}]);

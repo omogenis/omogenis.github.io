@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkomogenis=self.webpackChunkomogenis||[]).push([[9572],{7228:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/digest","page":1,"postsPerPage":10,"totalPages":1,"totalCount":5,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
