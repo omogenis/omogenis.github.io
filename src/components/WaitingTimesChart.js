@@ -55,19 +55,18 @@ const GREEK_MONTHS = {
 
 /**
  * Robust Date Parsing
- * Supports: DD/MM/YYYY, DD.MM.YYYY, DD-MM-YYYY, and DD Month YYYY (Greek)
  */
 const parseDate = (str) => {
   if (!str || str.trim() === '-' || str.toUpperCase() === 'NO_DATA') return null;
   const cleanStr = str.trim().toUpperCase();
   
-  // Numeric pattern: DD/MM/YYYY, DD.MM.YYYY, DD-MM-YYYY
+  // Numeric pattern
   const numericMatch = cleanStr.match(/^(\d{1,2})[./-](\d{1,2})[./-](\d{4})$/);
   if (numericMatch) {
     return new Date(numericMatch[3], numericMatch[2] - 1, numericMatch[1]).getTime();
   }
 
-  // Greek pattern: "4 ΑΠΡΙΛΙΟΥ 2025"
+  // Greek pattern
   const greekMatch = cleanStr.match(/^(\d{1,2})\s+([Α-ΩΆΈΉΊΌΎΏ]+)\s+(\d{4})$/);
   if (greekMatch && GREEK_MONTHS[greekMatch[2]] !== undefined) {
     return new Date(greekMatch[3], GREEK_MONTHS[greekMatch[2]], greekMatch[1]).getTime();
@@ -118,6 +117,8 @@ export default function WaitingTimesChart() {
   const [groupedData, setGroupedData] = useState({});
   const [metrics, setMetrics] = useState(null);
   const [sortedYears, setSortedYears] = useState([]);
+  const [volumeStats, setVolumeStats] = useState([]);
+  const [collectionDate, setCollectionDate] = useState(null);
   const [lastUpdated, setLastUpdated] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -129,32 +130,47 @@ export default function WaitingTimesChart() {
       header: true,
       skipEmptyLines: true,
       complete: (results) => {
+        // Extract Data Collection Date from headers
+        // Structure: ... , "Data Collection", "10/2/2026"
+        const fields = results.meta.fields || [];
+        const labelIndex = fields.indexOf('Data Collection');
+        if (labelIndex !== -1 && fields[labelIndex + 1]) {
+            setCollectionDate(fields[labelIndex + 1]);
+        }
+
         processData(results.data);
         setLoading(false);
       }
     });
   }, []);
 
-  const calculateMedian = (arr) => {
-    if (arr.length === 0) return 0;
-    const sorted = [...arr].sort((a, b) => a - b);
-    const mid = Math.floor(sorted.length / 2);
-    return sorted.length % 2 !== 0 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
-  };
-
   const calculateMetrics = (rows) => {
     if (rows.length === 0) return;
+    
+    // 1. Duration Stats (Wait Time)
     const stats = { overall: { values: [] } };
     let maxDate = 0;
+    
+    // 2. Volume Stats (Decision Counts)
+    const decisionCountsByYear = {};
+    let maxDecisionYear = 0;
 
     rows.forEach(r => {
+      // Duration Data
       stats.overall.values.push(r.duration);
-      const year = new Date(r.start).getFullYear();
-      if (!stats[year]) stats[year] = { values: [] };
-      stats[year].values.push(r.duration);
+      const startYear = new Date(r.start).getFullYear();
+      if (!stats[startYear]) stats[startYear] = { values: [] };
+      stats[startYear].values.push(r.duration);
+      
       if (r.end > maxDate) maxDate = r.end;
+
+      // Volume Data (Based on End/Circulation Date)
+      const endYear = new Date(r.end).getFullYear();
+      decisionCountsByYear[endYear] = (decisionCountsByYear[endYear] || 0) + 1;
+      if (endYear > maxDecisionYear) maxDecisionYear = endYear;
     });
 
+    // Process Duration Stats
     const result = {};
     Object.keys(stats).forEach(k => {
       const vals = stats[k].values;
@@ -165,9 +181,19 @@ export default function WaitingTimesChart() {
       };
     });
 
+    // Process Volume Stats (Last 4 Years from maxDecisionYear)
+    const recentVolume = [];
+    for (let i = 0; i < 4; i++) {
+        const y = maxDecisionYear - i;
+        if (y > 0) { // Safety check
+            recentVolume.push({ year: y, count: decisionCountsByYear[y] || 0 });
+        }
+    }
+
     setLastUpdated(maxDate);
-    setMetrics(result);
+    setMetrics({ ...result, totalDecisions: rows.length });
     setSortedYears(Object.keys(result).filter(k => k !== 'overall').sort((a,b) => b-a));
+    setVolumeStats(recentVolume);
   };
 
   const processData = (data) => {
@@ -223,23 +249,58 @@ export default function WaitingTimesChart() {
 
   return (
     <div>
-        <h2 className="text--center" style={{ color: textColor }}>Время рассмотрения дел</h2>
+        <h2 className="text--center" style={{ color: textColor, marginBottom: '0.5rem' }}>Статистика и время рассмотрения</h2>
         
+        {collectionDate && (
+           <p className="text--center" style={{ color: textColor, opacity: 0.7, fontSize: '0.9rem', marginBottom: '1.5rem' }}>
+             Дата обновления данных: <strong>{collectionDate}</strong>
+           </p>
+        )}
+
         {metrics && (
-          <div className="row margin-bottom--lg" style={{justifyContent: 'center'}}>
-            <div className="col col--3"><div className="card shadow--sm padding--md text--center">
-                <div style={{fontSize: '2rem', fontWeight: 'bold', color: COLOR_START}}>{metrics.overall.mean}</div>
-                <div style={{fontWeight: 'bold', color: textColor}}>Среднее (все годы)</div>
-                <small style={{color: textColor}}>Медиана: {metrics.overall.median}</small>
-            </div></div>
-            {sortedYears.slice(0, 4).map(y => (
-              <div key={y} className="col col--2"><div className="card shadow--sm padding--md text--center">
-                  <div style={{fontSize: '1.2rem', fontWeight: 'bold', color: textColor}}>{metrics[y].mean}</div>
-                  <div style={{fontWeight: 'bold', color: textColor, fontSize: '0.8rem'}}>Подача {y}</div>
-                  <small style={{color: textColor, fontSize: '0.7rem'}}>Медиана: {metrics[y].median}</small>
-              </div></div>
-            ))}
-          </div>
+          <>
+            {/* --- SECTION 1: VOLUME STATISTICS (COUNTS) --- */}
+            <div className="row margin-bottom--sm" style={{justifyContent: 'center'}}>
+                <div className="col col--3">
+                    <div className="card shadow--sm padding--md text--center" style={{border: `1px solid ${COLOR_END}`}}>
+                        <div style={{fontSize: '2rem', fontWeight: 'bold', color: COLOR_END}}>{metrics.totalDecisions}</div>
+                        <div style={{fontWeight: 'bold', color: textColor}}>Всего решений</div>
+                        <small style={{color: textColor, opacity: 0.7}}>В базе данных</small>
+                    </div>
+                </div>
+                {volumeStats.map(stat => (
+                    <div key={`vol-${stat.year}`} className="col col--2">
+                        <div className="card shadow--sm padding--md text--center">
+                            <div style={{fontSize: '1.5rem', fontWeight: 'bold', color: textColor}}>{stat.count}</div>
+                            <div style={{fontWeight: 'bold', color: textColor, fontSize: '0.8rem'}}>Решений в {stat.year}</div>
+                        </div>
+                    </div>
+                ))}
+            </div>
+
+            <hr style={{margin: '2rem 0', opacity: 0.2}}/>
+
+            {/* --- SECTION 2: WAIT TIME STATISTICS (DURATION) --- */}
+            <h3 className="text--center" style={{ color: textColor, fontSize: '1.2rem', marginBottom: '1rem' }}>Среднее время ожидания (по году подачи)</h3>
+            <div className="row margin-bottom--lg" style={{justifyContent: 'center'}}>
+                <div className="col col--3">
+                    <div className="card shadow--sm padding--md text--center" style={{backgroundColor: isDark ? '#1f2937' : '#f3f4f6'}}>
+                        <div style={{fontSize: '2rem', fontWeight: 'bold', color: COLOR_START}}>{metrics.overall.mean}</div>
+                        <div style={{fontWeight: 'bold', color: textColor}}>Среднее (дни)</div>
+                        <small style={{color: textColor}}>Медиана: {metrics.overall.median}</small>
+                    </div>
+                </div>
+                {sortedYears.slice(0, 4).map(y => (
+                    <div key={`wait-${y}`} className="col col--2">
+                        <div className="card shadow--sm padding--md text--center">
+                            <div style={{fontSize: '1.2rem', fontWeight: 'bold', color: textColor}}>{metrics[y].mean}</div>
+                            <div style={{fontWeight: 'bold', color: textColor, fontSize: '0.8rem'}}>Подача {y}</div>
+                            <small style={{color: textColor, fontSize: '0.7rem'}}>Медиана: {metrics[y].median}</small>
+                        </div>
+                    </div>
+                ))}
+            </div>
+          </>
         )}
 
         <div className="row margin-bottom--md" style={{justifyContent: 'center', fontSize: '0.9rem', color: textColor}}>
@@ -263,7 +324,9 @@ export default function WaitingTimesChart() {
                         {COUNTRY_CODES[country] && (
                             <img src={`https://flagcdn.com/24x18/${COUNTRY_CODES[country]}.png`} alt="" style={{ marginRight: '10px' }} />
                         )}
-                        <h3 style={{ margin: 0, color: textColor }}>{country}</h3>
+                        <h3 style={{ margin: 0, color: textColor }}>
+                            {country} <span style={{fontSize: '0.8rem', fontWeight: 'normal', opacity: 0.7, marginLeft: '8px'}}>(Страна рождения)</span>
+                        </h3>
                     </div>
                     <Chart 
                         type='bar' 
