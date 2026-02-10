@@ -131,7 +131,6 @@ export default function WaitingTimesChart() {
       skipEmptyLines: true,
       complete: (results) => {
         // Extract Data Collection Date from headers
-        // Structure: ... , "Data Collection", "10/2/2026"
         const fields = results.meta.fields || [];
         const labelIndex = fields.indexOf('Data Collection');
         if (labelIndex !== -1 && fields[labelIndex + 1]) {
@@ -333,8 +332,31 @@ export default function WaitingTimesChart() {
                         data={getChartData(rows)} 
                         plugins={[dateLabelsPlugin]}
                         options={{
-                            indexAxis: 'y', responsive: true, maintainAspectRatio: false, isDark,
-                            plugins: { legend: { display: false } },
+                            indexAxis: 'y', 
+                            responsive: true, 
+                            maintainAspectRatio: false, 
+                            isDark,
+                            plugins: { 
+                                legend: { display: false },
+                                tooltip: {
+                                    callbacks: {
+                                        label: (context) => {
+                                            const { dataset, raw } = context;
+                                            // Handle Bar (Range) - Show Wait Time
+                                            if (dataset.type === 'bar') {
+                                                const diffTime = Math.abs(raw[1] - raw[0]);
+                                                const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
+                                                return `Время ожидания: ${diffDays} дн.`;
+                                            }
+                                            // Handle Scatter (Points) - Show Date Only
+                                            if (dataset.type === 'scatter') {
+                                                return formatDate(raw.x);
+                                            }
+                                            return '';
+                                        }
+                                    }
+                                }
+                            },
                             scales: {
                                 x: { 
                                     type: 'time', 
