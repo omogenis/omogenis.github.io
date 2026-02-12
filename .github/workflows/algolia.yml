@@ -1,14 +1,15 @@
 name: Update Algolia Index
 
 on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
+  workflow_run:
+    workflows: ["Deploy to GitHub Pages"]
+    types:
+      - completed
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }} 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -18,7 +19,7 @@ jobs:
           APPLICATION_ID: ${{ secrets.ALGOLIA_APP_ID }}
           API_KEY: ${{ secrets.ALGOLIA_API_KEY }} 
         run: |
-          # Use jq to replace placeholders with actual secrets on the fly
+          # Inject secrets into the placeholder config.json
           jq ".appId = \"$APPLICATION_ID\" | .apiKey = \"$API_KEY\"" config.json > temp_config.json
           
           docker run \
