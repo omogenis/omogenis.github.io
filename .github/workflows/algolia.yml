@@ -1,0 +1,28 @@
+name: Update Algolia Index
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run Algolia Scraper
+        env:
+          APPLICATION_ID: ${{ secrets.ALGOLIA_APP_ID }}
+          API_KEY: ${{ secrets.ALGOLIA_API_KEY }} 
+        run: |
+          # Use jq to replace placeholders with actual secrets on the fly
+          jq ".appId = \"$APPLICATION_ID\" | .apiKey = \"$API_KEY\"" config.json > temp_config.json
+          
+          docker run \
+            -e APPLICATION_ID=$APPLICATION_ID \
+            -e API_KEY=$API_KEY \
+            -e "CONFIG=$(cat temp_config.json | jq -r tostring)" \
+            algolia/docsearch-scraper
