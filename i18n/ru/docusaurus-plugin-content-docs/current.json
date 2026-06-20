@@ -3,9 +3,9 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.ellinika.category.Η ιστορία της Ελλάδας και των Ελλήνων": {
-    "message": "Η ιστορία της Ελλάδας και των Ελλήνων",
-    "description": "The label for category 'Η ιστορία της Ελλάδας και των Ελλήνων' in sidebar 'ellinika'"
+  "sidebar.ellinika.category.Материалы для подготовки к собеседованию": {
+    "message": "Материалы для подготовки к собеседованию",
+    "description": "The label for category 'Материалы для подготовки к собеседованию' in sidebar 'ellinika'"
   },
   "sidebar.tutorialSidebar.category.Порядок натурализации": {
     "message": "Порядок натурализации",
@@ -39,8 +39,8 @@
     "message": "Информация об адвокатах и переводчиках, преподавателях Греческого языка, примерных вопросах.",
     "description": "The generated-index page description for category 'Полезная информация' in sidebar 'tutorialSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Η ιστορία της Ελλάδας και των Ελλήνων": {
-    "message": "Η ιστορία της Ελλάδας και των Ελλήνων",
-    "description": "The label for category 'Η ιστορία της Ελλάδας και των Ελλήνων' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.Материалы для подготовки к собеседованию": {
+    "message": "Материалы для подготовки к собеседованию",
+    "description": "The label for category 'Материалы для подготовки к собеседованию' in sidebar 'tutorialSidebar'"
   }
 }

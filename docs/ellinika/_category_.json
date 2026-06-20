@@ -1,7 +1,8 @@
 {
-  "label": "Η ιστορία της Ελλάδας και των Ελλήνων",
+  "label": "Материалы для подготовки к собеседованию",
   "position": 5,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "slug": "/interview-preparation"
   }
 }

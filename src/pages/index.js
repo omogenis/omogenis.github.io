@@ -95,14 +95,14 @@ function Materials() {
               </svg>
             </span>
 
-            <h1 class="text-2xl font-semibold text-white">История греков и&nbsp;Греции</h1>
+            <h1 class="text-2xl font-semibold text-white">Материалы для подготовки к собеседованию</h1>
 
             <p class="text-gray-300">
               Небольшие тексты об&nbsp;истории греков и&nbsp;Греции для начинающих изучать язык.
             </p>
 
             <a
-              href="/docs/category/η-ιστορία-της-ελλάδας-και-των-ελλήνων"
+              href="/docs/category/interview-preparation"
               class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-300 transform bg-blue-100 rounded-full rtl:-scale-x-100 dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
             >
               <svg
