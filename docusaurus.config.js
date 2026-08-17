@@ -8,8 +8,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Греки-соотечественники в постсоветских странах",
   tagline: "Этнические греки из стран бывшего СССР",
-  url: "https://omogenis.ru",
+  url: "https://omogeneis.gr",
   baseUrl: "/",
+  trailingSlash: false,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -29,6 +30,17 @@ const config = {
   },
 
   plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: ['/petition', '/petition-gr', '/petition-en'],
+            to: '/blog',
+          },
+        ],
+      },
+    ],
     [
       '@docusaurus/plugin-content-blog',
       {
@@ -77,6 +89,12 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/omogenis/omogenis.github.io/tree/main",
+        },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**', '**/tags/**'],
+          filename: 'sitemap.xml',
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
