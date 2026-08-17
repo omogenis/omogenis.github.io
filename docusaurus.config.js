@@ -39,6 +39,16 @@ const config = {
             to: '/blog',
           },
         ],
+        createRedirects(existingPath) {
+          if (existingPath.includes('/docs/category/')) {
+            const categorySlug = existingPath.split('/docs/category/')[1];
+            return [
+              `/docs/intro/category/${categorySlug}`,
+              `/intro/category/${categorySlug}`,
+            ];
+          }
+          return undefined;
+        },
       },
     ],
     [

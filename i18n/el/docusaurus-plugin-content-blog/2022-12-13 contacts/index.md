@@ -1,5 +1,6 @@
 ---
 slug: contacts
+date: 2022-12-13
 title: Συλλογή των επαφών των παραληπτών της αναφοράς
 authors: [maria, iliamiltykh]
 tags: [опрос, петиция]
