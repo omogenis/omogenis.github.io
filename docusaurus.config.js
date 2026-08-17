@@ -15,6 +15,41 @@ const config = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
 
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {
+        type: 'application/ld+json',
+      },
+      value: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@graph': [
+          {
+            '@type': 'Organization',
+            '@id': 'https://omogeneis.gr/#organization',
+            'name': 'ομογενής - Греки-соотечественники в постсоветских странах',
+            'url': 'https://omogeneis.gr',
+            'logo': 'https://omogeneis.gr/img/logo.svg',
+            'sameAs': [
+              'https://t.me/Greek_USSR'
+            ],
+            'description': 'Информационный ресурс и сообщество для греков-соотечественников из стран бывшего СССР по вопросам греческого гражданства, натурализации и культуры.'
+          },
+          {
+            '@type': 'WebSite',
+            '@id': 'https://omogeneis.gr/#website',
+            'url': 'https://omogeneis.gr',
+            'name': 'ομογενής',
+            'publisher': {
+              '@id': 'https://omogeneis.gr/#organization'
+            },
+            'inLanguage': ['ru', 'el', 'en']
+          }
+        ]
+      }),
+    },
+  ],
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "omogenis", // Usually your GitHub org/user name.
@@ -108,8 +143,19 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: 'img/logo.svg',
       metadata: [
-        {name: 'keywords', content: 'гражданство, Греция, натурализация, греки СССР, ходатайство, документы, переводчики, греческий язык, история эллинизма'},
+        {name: 'keywords', content: 'гражданство, Греция, натурализация, греки СССР, ходатайство, документы, переводчики, греческий язык, история эллинизма, ομογενής, omogeneis'},
+        {name: 'author', content: 'ομογενής'},
+        {name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'},
+        {property: 'og:type', content: 'website'},
+        {property: 'og:site_name', content: 'ομογενής - Греки-соотечественники'},
+        {property: 'og:title', content: 'Греки-соотечественники в постсоветских странах'},
+        {property: 'og:description', content: 'Инструкции по получению греческого гражданства, натурализации, подготовке документов, изучению греческого языка и истории эллинизма.'},
+        {property: 'og:url', content: 'https://omogeneis.gr'},
+        {name: 'twitter:card', content: 'summary_large_image'},
+        {name: 'twitter:title', content: 'Греки-соотечественники в постсоветских странах'},
+        {name: 'twitter:description', content: 'Инструкции по получению греческого гражданства, натурализации, подготовке документов, изучению греческого языка и истории эллинизма.'},
       ],
       colorMode: {
         defaultMode: "light",
