@@ -51,24 +51,16 @@ const config = {
         },
       },
     ],
+    /*
     [
       '@docusaurus/plugin-content-blog',
       {
-        /**
-         * Required for any multi-instance plugin
-         */
         id: 'digest',
-        /**
-         * URL route for the blog section of your site.
-         * *DO NOT* include a trailing slash.
-         */
         routeBasePath: 'digest',
-        /**
-         * Path to data on filesystem relative to site dir.
-         */
         path: './digest',
       },
     ],
+    */
 
     async function myPlugin(context, options) {
       return {
@@ -139,7 +131,6 @@ const config = {
             position: "left",
             label: "Материалы и инструкции",
           },
-          { href: "/digests", label: "Новостной дайджест", position: "left" },
           {
             href: "/contacts",
             label: "Контакты",
