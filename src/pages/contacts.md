@@ -5,7 +5,7 @@ hide_table_of_contents: true
 
 # Контакты
 
-**Email:** info@omogenis.ru
+**Email:** info@omogeneis.gr
 
 ### Правила чата
 

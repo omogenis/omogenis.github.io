@@ -5,4 +5,4 @@ hide_table_of_contents: true
 
 # Contacts
 
-**Email:** info@omogenis.ru
+**Email:** info@omogeneis.gr
