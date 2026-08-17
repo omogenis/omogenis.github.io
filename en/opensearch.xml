@@ -4,8 +4,8 @@
   <ShortName>Греки-соотечественники в постсоветских странах</ShortName>
   <Description>Search Греки-соотечественники в постсоветских странах</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://omogenis.ru/en/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://omogenis.ru/en/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://omogenis.ru/en/opensearch.xml" />
-  <moz:SearchForm>https://omogenis.ru/en/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://omogeneis.gr/en/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://omogeneis.gr/en/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://omogeneis.gr/en/opensearch.xml" />
+  <moz:SearchForm>https://omogeneis.gr/en/</moz:SearchForm>
 </OpenSearchDescription>
