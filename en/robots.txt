@@ -1,7 +1,29 @@
 User-agent: Googlebot
 Disallow: /nogooglebot/
 
+# Allow standard search crawlers and AI search/retrieval engines
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
 User-agent: *
 Allow: /
 
-Sitemap: https://www.omogenis.ru/sitemap.xml
+Sitemap: https://omogeneis.gr/sitemap.xml

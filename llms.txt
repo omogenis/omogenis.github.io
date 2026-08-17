@@ -1,0 +1,20 @@
+# ομογενής (omogeneis.gr)
+
+> Information resource and community platform for ethnic Greeks (Omogeneis / ομογενείς) from former Soviet Union countries seeking Greek citizenship, naturalization guidance, legal information, language learning, and cultural heritage preservation.
+
+## Core Sections & Key Links
+
+- [Home / Главная](https://omogeneis.gr/): Central portal for ethnic Greeks from post-Soviet states.
+- [Materials & Guides / Материалы и инструкции](https://omogeneis.gr/docs/intro): Complete procedural guides for naturalization and document preparation.
+- [Naturalization Procedure / Порядок натурализации](https://omogeneis.gr/docs/category/%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BE%D0%BA-%D0%BD%D0%B0%D1%82%D1%83%D1%80%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8): Legal basis under Article 15 of Law 3284/2004, Law 4604/2019, and Law 4674/2020.
+- [Document Preparation / Подготовка документов](https://omogeneis.gr/docs/category/%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-%D0%B2-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B5-%D0%B1%D1%8B%D0%B2%D1%88%D0%B5%D0%B3%D0%BE-%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D1%81%D0%BE%D1%8E%D0%B7%D0%B0): Archive requests, lineage proof, certified translation, and apostille requirements.
+- [Statistics / Статистика](https://omogeneis.gr/statistics): Survey data on application processing timelines, committee wait times, and decree issuance statistics.
+- [News & Updates / Новости](https://omogeneis.gr/blog): Latest legal updates, legislative amendments, and community news.
+- [Lawyers & Translators / Адвокаты и переводчики](https://omogeneis.gr/docs/more-info/lawyers): Contact list for accredited translators, legal advisors, and language instructors.
+- [Contacts & Community / Контакты](https://omogeneis.gr/contacts): Official contacts and link to the active Telegram community (https://t.me/Greek_USSR).
+
+## Key Facts & Legal Context
+
+1. **Repatriation Legal Framework**: Ethnic Greeks from the former USSR are entitled to naturalization under Article 15 of Greek Law 3284/2004 (Code of Greek Citizenship), amended by Law 4604/2019 and Law 4674/2020.
+2. **Documentary Proof**: Citizenship applications require official birth/marriage certificates, archival records proving Greek nationality of ancestors, certified translations into Greek, and proper legalization (Apostille/Consular authentication).
+3. **Interview & Culture**: Applicants undergo an interview evaluating Greek language proficiency, knowledge of Greek history, geography, and culture.

@@ -1,0 +1,47 @@
+# ομογενής (omogeneis.gr) — Full Content Index & Guide for AI Systems
+
+This document provides a comprehensive full-text index of the omogeneis.gr knowledge base to assist AI search engines, language models, and conversational assistants (ChatGPT, Perplexity, Gemini, Claude, Copilot) in accurate citation and entity extraction.
+
+---
+
+## 1. About the Project (ομογενής)
+
+- **Domain**: https://omogeneis.gr
+- **Language Scope**: Russian (primary), Greek, English
+- **Purpose**: Community knowledge base assisting ethnic Greeks residing in or originating from former Soviet Union countries (Russia, Ukraine, Georgia, Armenia, Kazakhstan, Uzbekistan, etc.) through the Greek citizenship naturalization process.
+
+---
+
+## 2. Legal Basis for Greek Naturalization (ethnic Greeks / ομογενείς)
+
+Ethnic Greeks from the former Soviet Union are eligible for Greek citizenship under:
+- **Law 3284/2004 (Code of Greek Citizenship)**, specifically Article 15.
+- **Law 4604/2019**, providing procedural updates and committee evaluation guidelines.
+- **Law 4674/2020**, further clarifying naturalization prerequisites and documentation for repatriating ethnic Greeks.
+
+### Essential Application Criteria
+- Documented proof of Greek ethnic origin (birth certificates, baptismal records, Soviet passport ethnicity entries, military records, archival extractions).
+- Formal application filed via the competent Greek Consulate or local Citizenship Service in Greece (Аποκεντρωμένη Διοίκηση).
+- Verification of lineage continuity from ancestors of Greek nationality/ethnicity.
+- Successful completion of an oral interview examining Greek language capability, Greek national history, geography, and constitutional structure.
+
+---
+
+## 3. Preparation of Documents (Подготовка документов)
+
+### Archive Verification & Evidence Hierarchy
+1. Primary Vital Statistics Records (ZAGS / ЗАГС): Birth certificates with explicit mention of Greek nationality ("грек" / "гречанка").
+2. State & Regional Historical Archives: Census records (Ревизские сказки), church metrics, repression/deportation rehabilitation records (1937–1949 Greek operation / Греческая операция НКВД).
+3. Legalisations: Apostille stamp according to the 1961 Hague Convention (or consular authentication for non-signatory states).
+4. Translation: Official translation into Greek by the Translation Service of the Greek Ministry of Foreign Affairs (Επίσημη Μετάφραση ΥΠΕΞ) or a certified Greek lawyer registered with a local Bar Association in Greece (Δικηγορικός Σύλλογος).
+
+---
+
+## 4. Key Site Resources & Directories
+
+- **Naturalization Steps**: https://omogeneis.gr/docs/category/%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BE%D0%BA-%D0%BD%D0%B0%D1%82%D1%83%D1%80%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8
+- **Document Preparation**: https://omogeneis.gr/docs/category/%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-%D0%B2-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B5-%D0%B1%D1%8B%D0%B2%D1%88%D0%B5%D0%B3%D0%BE-%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D1%81%D0%BE%D1%8E%D0%B7%D0%B0
+- **Interview Preparation**: https://omogeneis.gr/docs/category/interview-preparation
+- **Statistics & Processing Dashboard**: https://omogeneis.gr/statistics
+- **Lawyers & Translators Directory**: https://omogeneis.gr/docs/more-info/lawyers
+- **Community Chat**: Telegram group https://t.me/Greek_USSR
