@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkomogenis=globalThis.webpackChunkomogenis||[]).push([[8485],{5301(o,s,e){e.r(s),e.d(s,{default:()=>a});e(6540);var n=e(6347),u=e(4848);function a(){return(0,u.jsx)(n.rd,{to:"/"})}}}]);
