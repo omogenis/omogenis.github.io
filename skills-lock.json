@@ -211,6 +211,12 @@
       "skillPath": "email/setup/deliverability-qa/SKILL.md",
       "computedHash": "5184cbe0929eb0543efd685b9ce25c06debdb65de234c3992b36afe6dd4914da"
     },
+    "design-taste-frontend": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "skillPath": "skills/taste-skill/SKILL.md",
+      "computedHash": "899b84384f74f540ea5284d9b2e9234e050998b42eacc805410b518d4226c0b3"
+    },
     "domain-authority-auditor": {
       "source": "aaron-he-zhu/aaron-marketing-skills",
       "sourceType": "github",

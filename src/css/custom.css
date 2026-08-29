@@ -71,3 +71,155 @@ a.button:focus {
 .datawrapper-graph {
   width: 0; min-width: 100% !important; border: none;
 }
+
+/* Fix vertical alignment & inherited paragraph line-height inside badges/pills/buttons in markdown */
+.markdown span[style*="border-radius"],
+.markdown span[style*="borderRadius"],
+.markdown a[style*="border-radius"],
+.markdown a[style*="borderRadius"],
+.markdown a[style*="background"] {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: 1.2 !important;
+  vertical-align: middle;
+}
+
+/* Prevent MDX compiler from adding paragraph margin inside links, buttons, or flex containers */
+.markdown a p,
+.markdown button p,
+.markdown div[style*="flex"] p,
+.markdown div[style*="grid"] p {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: inline !important;
+  line-height: inherit !important;
+}
+
+/* Modern Process Flow Component */
+.process-flow-container {
+  background: var(--ifm-card-background-color, #ffffff);
+  border: 1px solid var(--ifm-color-emphasis-200, #e2e8f0);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin: 1.75rem 0;
+  box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.05);
+}
+
+[data-theme='dark'] .process-flow-container {
+  background: #1e293b;
+  border-color: #334155;
+  box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.3);
+}
+
+.process-flow-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--ifm-font-color-base, #0f172a);
+  text-align: center;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200, #e2e8f0);
+  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+[data-theme='dark'] .process-flow-title {
+  border-bottom-color: #334155;
+}
+
+.process-flow-steps {
+  display: grid;
+  gap: 1rem;
+}
+
+.process-flow-steps.cols-4 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: 640px) {
+  .process-flow-steps.cols-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .process-flow-steps.cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.process-flow-steps.cols-3 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: 768px) {
+  .process-flow-steps.cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.process-step-card {
+  background: var(--ifm-color-emphasis-100, #f8fafc);
+  border: 1px solid var(--ifm-color-emphasis-200, #e2e8f0);
+  border-radius: 0.75rem;
+  padding: 1.25rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+[data-theme='dark'] .process-step-card {
+  background: #0f172a;
+  border-color: #334155;
+}
+
+.process-step-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--ifm-color-primary, #0d5eaf);
+  box-shadow: 0 8px 20px -6px rgba(13, 94, 175, 0.2);
+}
+
+.process-step-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(13, 94, 175, 0.1);
+  color: var(--ifm-color-primary, #0d5eaf);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.03em;
+}
+
+[data-theme='dark'] .process-step-badge {
+  background: rgba(56, 189, 248, 0.15);
+  color: #38bdf8;
+}
+
+.process-step-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--ifm-font-color-base, #0f172a);
+  margin-bottom: 0.35rem;
+  line-height: 1.35;
+}
+
+.process-step-desc {
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-700, #475569);
+  line-height: 1.45;
+  margin: 0;
+}
+
+[data-theme='dark'] .process-step-desc {
+  color: #94a3b8;
+}
