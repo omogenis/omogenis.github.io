@@ -1,0 +1,54 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.ellinika.category.Материалы для подготовки к собеседованию": {
+    "message": "Μαθήματα ελληνικών για συνέντευξη",
+    "description": "The label for category 'Материалы для подготовки к собеседованию' in sidebar 'ellinika'"
+  },
+  "sidebar.tutorialSidebar.category.Порядок натурализации": {
+    "message": "Διαδικασία πολιτογράφησης",
+    "description": "The label for category 'Порядок натурализации' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Порядок натурализации.link.generated-index.description": {
+    "message": "Διαδικασία πολιтоγράφησης των Ελλήνων της πρώην ΕΣΣΔ",
+    "description": "The generated-index page description for category 'Порядок натурализации' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Подготовка документов в стране бывшего Советского союза": {
+    "message": "Προετοιμασία εγγράφων στην πρώην ΕΣΣΔ",
+    "description": "The label for category 'Подготовка документов в стране бывшего Советского союза' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Подготовка документов в стране бывшего Советского союза.link.generated-index.description": {
+    "message": "Οδηγίες προετοιμασίας και επικύρωσης εγγράφων στην πρώην Σοβιετική Ένωση",
+    "description": "The generated-index page description for category 'Подготовка документов в стране бывшего Советского союза' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Изучение Греческого языка и истории греков": {
+    "message": "Εκμάθηση ελληνικής γλώσσας και ιστορίας",
+    "description": "The label for category 'Изучение Греческого языка и истории греков' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Изучение Греческого языка и истории греков.link.generated-index.description": {
+    "message": "Εκπαιδευτικό υλικό και εγχειρίδια για την εκμάθηση της ελληνικής γλώσσας.",
+    "description": "The generated-index page description for category 'Изучение Греческого языка и истории греков' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Полезная информация": {
+    "message": "Χρήσιμες πληροφορίες",
+    "description": "The label for category 'Полезная информация' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Полезная информация.link.generated-index.description": {
+    "message": "Πληροφορίες για δικηγόρους, επίσημους μεταφραστές και καθηγητές ελληνικής γλώσσας.",
+    "description": "The generated-index page description for category 'Полезная информация' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Материалы для подготовки к собеседованию": {
+    "message": "Μαθήματα ελληνικών για συνέντευξη",
+    "description": "The label for category 'Материалы для подготовки к собеседованию' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Первые шаги в Греции": {
+    "message": "Πρώτα Βήματα στην Ελλάδα",
+    "description": "The label for category 'Первые шаги в Греции' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Первые шаги в Греции.link.generated-index.description": {
+    "message": "Οδηγός εγκατάστασης, έκδοσης ΑΦΜ, ΑΜΚΑ και αναγνώρισης πτυχίων στην Ελλάδα",
+    "description": "The generated-index page description for category 'Первые шаги в Греции' in sidebar 'tutorialSidebar'"
+  }
+}

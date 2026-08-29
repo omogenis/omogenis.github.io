@@ -42,5 +42,13 @@
   "sidebar.tutorialSidebar.category.Материалы для подготовки к собеседованию": {
     "message": "Материалы для подготовки к собеседованию",
     "description": "The label for category 'Материалы для подготовки к собеседованию' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Первые шаги в Греции": {
+    "message": "Первые шаги в Греции",
+    "description": "The label for category 'Первые шаги в Греции' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Первые шаги в Греции.link.generated-index.description": {
+    "message": "Инструкции по первичному обустройству, оформлению документов и признанию дипломов в Греции",
+    "description": "The generated-index page description for category 'Первые шаги в Греции' in sidebar 'tutorialSidebar'"
   }
 }
