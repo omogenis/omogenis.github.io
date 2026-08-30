@@ -102,7 +102,7 @@ function Materials() {
             </p>
 
             <a
-              href="/docs/category/interview-preparation"
+              href="/docs/interview-preparation"
               className="inline-flex p-2 text-blue-500 capitalize transition-colors duration-300 transform bg-blue-100 rounded-full rtl:-scale-x-100 dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
             >
               <svg

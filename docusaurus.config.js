@@ -82,6 +82,11 @@ const config = {
               `/intro/category/${categorySlug}`,
             ];
           }
+          if (existingPath.endsWith('/docs/interview-preparation')) {
+            return [
+              existingPath.replace('/docs/interview-preparation', '/docs/category/interview-preparation'),
+            ];
+          }
           return undefined;
         },
       },
